@@ -1,0 +1,43 @@
+﻿.item-box-desc {
+    padding: 10px 20px;
+    overflow: hidden;
+    height: 100px;
+}
+
+@media (min-width: 576px) {
+    .quote-creative-carousel .item article {
+        height: 450px;
+    }
+}
+
+a {
+    color: #69971C;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+@media (width: 768px) {
+    .quote-creative__subtitle {
+        font-size: 13px !important;
+    }
+
+    .quote-creative-carousel .item article {
+        height: 550px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .quote-creative {
+        max-width: 300px !important;
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.navbar-inverse .container-fluid div#myNavbar .navbar-nav li a{
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+
+}
