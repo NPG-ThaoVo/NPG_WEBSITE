@@ -9207,7 +9207,6 @@ header#page-headers #main-nav #mobile-menu {
         }
 
 .btnBlock-wrap {
-    margin-top: 32px;
     text-align: center;
 }
 
@@ -12432,10 +12431,10 @@ footer#footer #copyright {
 }
 
 .divider {
-    width: 34px;
+   width: 85px;
     height: 2px;
     padding: 0;
-    margin: 27px auto 34px;
+    margin: 10px auto 0px;
     background: #bababa;
     border: none;
 }
