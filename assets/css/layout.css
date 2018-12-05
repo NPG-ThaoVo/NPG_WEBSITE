@@ -518,6 +518,7 @@ section header {
     section header p {
         margin: 0;
         padding: 0;
+        line-height: 25px;
     }
 
 div.price-table {
@@ -1394,7 +1395,7 @@ footer {
     background-color: #EFEFEF;
     color: #fff;
     padding: 0;
-    font-size: 13px;
+    font-size: 15px;
     position: relative;
     text-align: left;
 }
@@ -2026,6 +2027,7 @@ footer p {
 
 #service .detail-service strong {
     color: black;
+    font-size: 18px;
 }
 
 #service .detail-service {
@@ -2037,6 +2039,7 @@ footer p {
 
 .detail-service p {
     text-align: justify;
+    font-size:16px;
 }
 
 #portfolio .isotope-filter li {
@@ -2997,4 +3000,11 @@ a.close-modal {
 
 .text-service {
     margin-left: -20px;
+}
+.text-service p a{
+        color: #3f88c5;
+}
+.text-service p a:hover{
+       text-decoration: underline;
+       color: #e3713d;
 }
