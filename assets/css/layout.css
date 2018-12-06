@@ -704,7 +704,7 @@ div.inner-cover {
 .item-box-desc {
     padding: 10px 20px;
     overflow: hidden;
-    /*height: 90px;*/
+    height: 105px;
 }
 
     .item-box-desc p {
@@ -2528,67 +2528,7 @@ i.up {
 /*responsive mobie*/
 
 
-@media only screen and (max-height: 450px) and (max-width: 767px) {
-    #header .navbar-nav {
-        max-height: 160px;
-        overflow: hidden;
-        overflow-y: auto;
-        background-color: #ececec;
-    }
 
-    #header,
-    #header .navbar,
-    #header .navbar-brand {
-        height: 47px !important;
-    }
-
-    .navbar {
-        min-height: 47px;
-    }
-
-    #header .navbar img {
-        height: 45px;
-        vertical-align: top;
-    }
-
-    #header .navbar-brand {
-        padding-top: 4px;
-        padding-bottom: 0;
-        padding-right: 0;
-    }
-
-    #mobileMenu {
-        margin-top: -6px;
-    }
-}
-
-@media only screen and (max-height: 450px) {
-
-
-    #home h1,
-    #home h2 {
-        font-size: 30px;
-        line-height: 30px;
-        margin-top: 40px;
-        margin-bottom: 10px;
-    }
-
-    #home h6 {
-        margin: 0 0 20px 0;
-    }
-
-    #smallHero h1,
-    #smallHero h2 {
-        font-size: 30px;
-        line-height: 30px;
-        margin-top: 40px;
-        margin-bottom: 10px;
-    }
-
-    #smallHero h6 {
-        margin: 0 0 20px 0;
-    }
-}
 
 
 /*mobile onlu elements for menu navbar*/
@@ -2975,7 +2915,7 @@ i.up {
     }
 
     .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-        margin-top: 15px;
+        margin-top: 0px;
         display: inline-block !important;
     }
 
@@ -3250,14 +3190,14 @@ h1.header-every {
 hr.darkers {
     border: 1px solid #8C6B8A;
     width: 100%;
-    margin-top: -2px;
+    margin-top: 3px;
 }
 
 hr.white {
     padding-top: -10px;
     border: 1px solid white;
     width: 100%;
-    margin-top: -2px;
+    margin-top: 3px;
 }
 
 h1.custonmer-website {
@@ -3277,23 +3217,24 @@ h1.custonmer-website {
 
 .detail-every-website {
     margin: 0;
+    margin-bottom: 30px;
 }
 
     .detail-every-website p {
         padding-top: 5px;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 25px;
     }
 
 strong.header-every {
     color: black;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 p.content-custom-website {
     line-height: 150%;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 1px;
     font-weight: 200;
     line-height: 25px;
@@ -3302,10 +3243,11 @@ p.content-custom-website {
 p.text-content-shall {
     line-height: 150%;
     color: #8C6B8A;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 1px;
     font-weight: 200;
     line-height: 25px;
+    text-align: justify;
 }
 
 h1.shall-we-srart {
@@ -3327,14 +3269,14 @@ p.detail-text-every {
 }
 
 .short-content {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 110px;
+    margin-right: 110px;
 }
 
 .header-customer-detail {
     text-align: left;
     color: white;
-    font-size: 14px;
+    font-size: 20px;
     letter-spacing: 3px;
     font-weight: 600;
 }
@@ -3472,14 +3414,13 @@ End project.html
         margin-left: -196px;
         color: black;
     }
-
+    
     .designs-detail {
         margin-left: 0px !important;
         font-size: 13px;
     }
 
     .designs-bottom {
-        text-align: center;
         font-size: 13px;
         padding: 40px 35px;
         padding-top: 43px;
@@ -3503,5 +3444,162 @@ End project.html
 
     .top {
         display: block;
+    }
+}
+
+@media only screen and (max-height: 450px) and (max-width: 900px) {
+     .owl-carousel .owl-item{
+        width:195px!important;
+    }
+    .text-home .header-texthome {
+        margin-bottom: 0px !important;
+        font-size: 30px !important;
+    }
+
+    .text-home .detail-texthome {
+        font-size: 18px;
+    }
+
+    .text-home {
+        margin-top: 80px !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    #navbar-collapse {
+        margin-top: 15px;
+    }
+
+    #header .navbar-nav {
+        max-height: max-content;
+        overflow: hidden;
+        overflow-y: auto;
+        /*background-color: #ececec;*/
+    }
+
+    /*#header,
+    #header .navbar,
+    #header .navbar-brand {
+        height: 47px !important;
+    }*/
+
+    /*.navbar {
+        min-height: 47px;
+    }*/
+
+    #header .navbar img {
+        height: 35px;
+        vertical-align: top;
+    }
+
+    #header .navbar-brand {
+        padding-top: 4px;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+
+    #mobileMenu {
+        margin-top: -6px;
+    }
+}
+
+@media only screen and (min-height:300px) and (max-height: 400px) {
+   
+    #portfolio .portfolio-items ul li figure {
+        min-height: 100px;
+        max-height: 175px;
+    }
+}
+
+@media only screen and (max-height: 450px) {
+    #header .navbar img {
+        height: 45px !important;
+    }
+
+    #mobileMenu {
+        top: 30px;
+    }
+
+    #home h1,
+    #home h2 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    #home h6 {
+        margin: 0 0 20px 0;
+    }
+
+    #smallHero h1,
+    #smallHero h2 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    #smallHero h6 {
+        margin: 0 0 20px 0;
+    }
+
+    #header {
+        height: 70px;
+    }
+
+    .navbar-inverse {
+        height: 60px !important;
+    }
+
+    .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+        margin-top: 0px;
+    }
+}
+@media only screen and (width: 823px) and (height: 411px) {
+    
+     #portfolio .isotope-filter li {
+        margin-left: 0px;
+        font-size: 10px;
+    }
+
+    #portfolio .nav li > a {
+        padding-left: 13px;
+        line-height: 15px;
+    }
+
+    .item-box-desc {
+        height: 105px;
+    }
+
+    #portfolio .item-box h4 {
+        display: inline-block;
+    }
+}
+@media only screen and (width: 812px) and (height: 375px) {
+    #header .nav.navbar-nav {
+        margin-top: 0px !important;
+    }
+
+    .nav-logoheader {
+        margin-top: 8px;
+    }
+
+    #portfolio .isotope-filter li {
+        margin-left: 0px;
+        font-size: 10px;
+    }
+
+    #portfolio .nav li > a {
+        padding-left: 13px;
+        line-height: 15px;
+    }
+
+    .item-box-desc {
+        height: 105px;
+    }
+
+    #portfolio .item-box h4 {
+        display: inline-block;
     }
 }
