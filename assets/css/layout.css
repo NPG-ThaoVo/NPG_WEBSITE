@@ -1497,8 +1497,22 @@ footer p {
 }
 
 @media only screen and (width: 1024px) {
+    .photo-right img{
+        height: 460px;
+    }
     .owl-carousel .owl-item {
         padding: 0px 10px;
+    }
+
+    .designs-bottom {
+        padding: 0px;
+        text-align: justify;
+    }
+
+    .designs-bottom {
+        padding: 85px 8px!important;
+        padding-left: 110px!important;
+        padding-right: 90px!important;
     }
 }
 
@@ -3414,7 +3428,7 @@ End project.html
         margin-left: -196px;
         color: black;
     }
-    
+
     .designs-detail {
         margin-left: 0px !important;
         font-size: 13px;
@@ -3448,9 +3462,10 @@ End project.html
 }
 
 @media only screen and (max-height: 450px) and (max-width: 900px) {
-     .owl-carousel .owl-item{
-        width:195px!important;
+    .owl-carousel .owl-item {
+        width: 195px !important;
     }
+
     .text-home .header-texthome {
         margin-bottom: 0px !important;
         font-size: 30px !important;
@@ -3504,7 +3519,7 @@ End project.html
 }
 
 @media only screen and (min-height:300px) and (max-height: 400px) {
-   
+
     #portfolio .portfolio-items ul li figure {
         min-height: 100px;
         max-height: 175px;
@@ -3512,6 +3527,9 @@ End project.html
 }
 
 @media only screen and (max-height: 450px) {
+    .text-home-product {
+        margin-top: 135px;
+    }
     #header .navbar img {
         height: 45px !important;
     }
@@ -3556,9 +3574,10 @@ End project.html
         margin-top: 0px;
     }
 }
+
 @media only screen and (width: 823px) and (height: 411px) {
-    
-     #portfolio .isotope-filter li {
+
+    #portfolio .isotope-filter li {
         margin-left: 0px;
         font-size: 10px;
     }
@@ -3576,6 +3595,7 @@ End project.html
         display: inline-block;
     }
 }
+
 @media only screen and (width: 812px) and (height: 375px) {
     #header .nav.navbar-nav {
         margin-top: 0px !important;
