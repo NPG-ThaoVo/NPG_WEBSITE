@@ -2358,12 +2358,13 @@ i.up {
     .text-home .detail-texthome {
         font-size: 32px;
     }
-
+    /*hai-code-index*/
     .text-home .header-texthome {
-        font-size: 55px;
+        font-size: 50px;
         font-weight: 700;
         margin-bottom: 40px;
     }
+    /*end*/
 
 @media only screen and (max-width: 768px) {
     #copyright p {
@@ -3337,7 +3338,10 @@ p.detail-text-every {
 }
 
 @media only screen and (max-width: 768px) {
-
+    .btn-popup {
+    padding: 5px 29px;
+    font-size: 15px;
+}
     .text-home {
         margin-top: 200px;
     }
@@ -3521,11 +3525,13 @@ End project.html
     .btn-getsrat {
     margin-top: 25px!important;
 }
+/*hai-code-index*/
     .text-home {
-        margin-top: 80px !important;
+        margin-top: 165px !important;
         padding-top: 0px !important;
         padding-bottom: 20px !important;
     }
+    /*end*/
 
     #navbar-collapse {
         margin-top: 15px;
@@ -3572,6 +3578,7 @@ End project.html
 }
 
 @media only screen and (max-height: 450px) {
+    
     .text-home-product {
         margin-top: 135px;
     }
@@ -3622,7 +3629,9 @@ End project.html
 }
 
 @media only screen and (width: 823px) and (height: 411px) {
-
+    body .bx-wrapper {
+        margin: 0px auto!important;
+    }
     #portfolio .isotope-filter li {
         margin-left: 0px;
         font-size: 10px;
@@ -3669,3 +3678,27 @@ End project.html
         display: inline-block;
     }
 }
+
+@media only screen and (max-height: 260px) {
+
+        /*hai-code-index*/
+        body .bx-viewport {
+            height: 68px !important;
+        }
+
+        .text-home .header-texthome {
+        margin-bottom: 0px !important;
+        font-size: 20px !important;
+        }
+        /*end*/
+        .text-home {
+            margin-top: 80px !important;
+            padding-top: 0px !important;
+            padding-bottom: 20px !important;
+        }
+
+        /*.text-home .header-texthome {
+        margin-top: 5px!important;
+        font-size: 24px !important;
+}*/
+    }

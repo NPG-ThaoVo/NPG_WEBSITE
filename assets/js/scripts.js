@@ -627,7 +627,8 @@
 
 
 		jQuery(window).load(function() {
-
+		    $('.isotope-filter li').eq(1).addClass('active');
+		    jQuery("ul.isotope").css('display', 'none');
 			jQuery("ul.isotope").addClass('fadeIn');
 
 		});
