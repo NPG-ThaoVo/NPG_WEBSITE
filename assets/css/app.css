@@ -5178,9 +5178,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 .container > .navbar-header,
-.container> .navbar-header,
+.container > .navbar-header,
 .container > .navbar-collapse,
-.container> .navbar-collapse {
+.container > .navbar-collapse {
     margin-right: -15px;
     margin-left: -15px;
 }
@@ -8260,7 +8260,7 @@ body a.bx-next {
 }
 
 body .bx-viewport {
-    height: 300px !important;
+    height: 115px !important;
 }
 
 body .bx-default-pager {
@@ -11169,7 +11169,7 @@ footer#footer #copyright {
     vertical-align: middle;
 }
 
-    @media (max-width: 767px) {
+@media (max-width: 767px) {
     #content #roq .formBtn .btnBlock {
         max-width: 100%;
     }
@@ -11591,7 +11591,7 @@ footer#footer #copyright {
 }
 
 .navbar-inverse .container {
-   padding: 0;
+    padding: 0;
     /* max-width: 980px; */
     margin: 0 auto;
     height: 64px;
@@ -12214,7 +12214,7 @@ footer#footer #copyright {
 }
 
 .hvr-underline-from-center {
-   /*font: 1em Arial, sans-serif;
+    /*font: 1em Arial, sans-serif;
   display: inline-block;
   padding: 1em;margin: 1em;
   border-radius: 5px; */
@@ -12431,7 +12431,7 @@ footer#footer #copyright {
 }
 
 .divider {
-   width: 85px;
+    width: 85px;
     height: 2px;
     padding: 0;
     margin: 10px auto 0px;
@@ -12488,7 +12488,8 @@ hr {
 div.price-table {
     background: white !important;
 }
-.hvr-underline-from-center:hover, .hvr-underline-from-center a:hover{
-    color:#8c288b!important;
-    font-weight:700;
+
+.hvr-underline-from-center:hover, .hvr-underline-from-center a:hover {
+    color: #8c288b !important;
+    font-weight: 700;
 }
