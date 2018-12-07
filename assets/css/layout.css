@@ -1497,9 +1497,10 @@ footer p {
 }
 
 @media only screen and (width: 1024px) {
-    .photo-right img{
+    .photo-right img {
         height: 460px;
     }
+
     .owl-carousel .owl-item {
         padding: 0px 10px;
     }
@@ -1510,9 +1511,9 @@ footer p {
     }
 
     .designs-bottom {
-        padding: 85px 8px!important;
-        padding-left: 110px!important;
-        padding-right: 90px!important;
+        padding: 85px 8px !important;
+        padding-left: 110px !important;
+        padding-right: 90px !important;
     }
 }
 
@@ -2349,7 +2350,7 @@ i.up {
 
 .text-home {
     margin-top: 300px;
-    background: #61882085;
+    background: rgba(96,136,31,0.5215686274509804);
     padding-top: 52px;
     padding-bottom: 52px;
 }
@@ -2664,7 +2665,7 @@ i.up {
     }
 
         .detail-service p {
-            text-align: justify;
+            text-align: left;
             margin-top: 0px !important;
         }
 
@@ -2790,7 +2791,13 @@ i.up {
     max-width: 750px !important;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 400px) {
+    .text-home {
+        margin-top: 200px !important;
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+
     .img-avt {
         height: 250px !important;
     }
@@ -2801,6 +2808,7 @@ i.up {
 }
 
 @media only screen and (max-width: 768px) {
+
     .bx-wrapper div div {
         text-align: -webkit-center;
     }
@@ -2996,7 +3004,25 @@ i.up {
         padding-right: 0px !important;
     }
 }
-
+@media only screen and (min-width: 1024px) {
+    .text-home {
+    margin-top: 100px;
+    background: rgba(96,136,31,0.5215686274509804);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+    .text-home .header-texthome {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+    .text-home .detail-texthome {
+    font-size: 20px;
+}
+    .btn-getsrat {
+    margin-top: 30px;
+}   
+}
 @media only screen and (width: 1024px) {
     #portfolio .isotope-filter li {
         margin-left: 0px !important;
@@ -3050,7 +3076,7 @@ a.close-modal {
 }
 
     .text-service p a {
-        color: #3f88c5;
+        color: #07C;
     }
 
         .text-service p a:hover {
@@ -3296,6 +3322,10 @@ p.detail-text-every {
 }
 
 @media only screen and (max-width: 768px) {
+    .text-home {
+        margin-top: 200px;
+    }
+
     .short-content {
         margin-left: 3%;
         margin-right: 3%;
@@ -3328,26 +3358,24 @@ End project.html
 @media only screen and (min-width:1025px) {
     .text-home-product {
         margin-top: 240px;
-        background: #49730385;
+        background: rgba(96,136,31,0.5215686274509804);
         padding-top: 40px;
         padding-bottom: 40px;
         width: 50%;
     }
 
         .text-home-product .header-texthome-product {
-            text-align: center;
-            font-size: 47px;
-            font-weight: 600;
-            margin-bottom: 22px;
-            margin-left: 200px;
+            text-align: left;
+            font-size: 40px;
+            margin-left: 35%;
+            letter-spacing: 2px;
         }
 
-        .text-home-product .detail-texthom-producte {
+        .text-home-product .detail-texthome-product {
             text-align: left;
             font-size: 20px;
             line-height: 26px;
-            margin-left: 250px;
-            padding: 15px 145px;
+            margin-left: 35%;
             letter-spacing: 2px;
         }
 
@@ -3530,6 +3558,7 @@ End project.html
     .text-home-product {
         margin-top: 135px;
     }
+
     #header .navbar img {
         height: 45px !important;
     }
