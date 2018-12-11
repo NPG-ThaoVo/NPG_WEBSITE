@@ -28,19 +28,23 @@ jq(window).load(function () {
         scrollMenu();
     });
     jq(document).on('click', 'a[href*="#"]', function (e) {
-        // Use window.location.origin for full url
-        jq("div#myNavbar .navbar-nav li").each(function () { jq(this).removeClass("active"); })
-        jq(this).parent("li").addClass("active");
-        var tagA_id = jq(this).attr('href').replace(window.location.origin + '/', ''),
-            id = jq(tagA_id);
-        if (id.length === 0) { return; }
-        e.preventDefault();
-        var pos = id.offset().top - jq('#menu').height();
-        jq('body, html').animate({ scrollTop: pos }, 1000);
-        // Set current location to reference link
-        window.location = jq(this).attr('href');
-        currentPage();
+        console.log(jq(this));
+        if (!jq(this).hasClass("btn-popup")) {
+            // Use window.location.origin for full url
+            jq("div#myNavbar .navbar-nav li").each(function () { jq(this).removeClass("active"); })
+            jq(this).parent("li").addClass("active");
+            var tagA_id = jq(this).attr('href').replace(window.location.origin + '/', ''),
+                id = jq(tagA_id);
+            if (id.length === 0) { return; }
+            e.preventDefault();
+            var pos = id.offset().top - jq('#menu').height();
+            jq('body, html').animate({ scrollTop: pos }, 1000);
+            // Set current location to reference link
+            window.location = jq(this).attr('href');
+            currentPage();
+        }
     });
+  
 })
 
 function setHeightHeader() {
