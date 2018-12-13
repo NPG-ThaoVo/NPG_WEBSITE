@@ -61,9 +61,9 @@
                 </div>
                 <div id="navbar-collapse" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="hvr-underline-from-center"> <a href="#service" class="">Services</a></li>
-                        <li class="hvr-underline-from-center"> <a href="#access" class="">Projects</a></li>
-                        <li class="hvr-underline-from-center"> <a href="#profile" class="">Profile</a></li>
+                        <li class="hvr-underline-from-center"> <a href="index.html#service" class="">Services</a></li>
+                        <li class="hvr-underline-from-center"> <a href="index.html#access" class="">Projects</a></li>
+                        <li class="hvr-underline-from-center"> <a href="index.html#profile" class="">Profile</a></li>
                         <li class="hvr-underline-from-center"> <a href="#contact" class="">Contact</a></li>
                         <li class="hvr-underline-from-center"> <a href="news.html">News</a></li>
                     </ul>
@@ -127,7 +127,7 @@
     <!-- ----------------------END -->
     <!-- START Reponsive Design-->
     <div class="clearfix"></div>
-    <section id="service" style="background-color:#F3F7FA">
+    <section style="background-color:#F3F7FA">
         <div class="table">
             <div class="table-cell">
                 <div class="text-home-every">
@@ -183,7 +183,7 @@
     <!-- END Reponsive Design-->
     <!-- START CUSTOM WEBSITE-->
 
-    <section id="profile" style="background-color: rgba(0, 0, 0, 0); background-image: url('assets/images/product-details-ver2/customer-website.png'); background-size: cover; width: 100%;opacity: 1; visibility: inherit; background-position: center center; background-repeat: no-repeat no-repeat;">
+    <section style="background-color: rgba(0, 0, 0, 0); background-image: url('assets/images/product-details-ver2/customer-website.png'); background-size: cover; width: 100%;opacity: 1; visibility: inherit; background-position: center center; background-repeat: no-repeat no-repeat;">
         <div class="container">
             <div class="row">
                 <div class="short-content">
@@ -406,86 +406,6 @@
     <script type="text/javascript" src="assets/js/scroll-menu.js"></script>
     <script type="text/javascript" src="assets/js/script_v2.js"></script>
     <script type="text/javascript" src="assets/js/scripts.js"></script>
-    <script>
-        $(document).ready(function () { })
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    nav: false,
-                },
-                768: {
-                    items: 3,
-                    nav: false
-                },
-                1024: {
-                    items: 4,
-                    nav: true,
-                    loop: false
-                }
-            }
-        })
-
-    </script>
-    <script>
-
-        $('.googlemap-section').on('click', function () {
-            $('.googlemap-content').fadeToggle("slow");
-        });
-        $(".googlemap-section").click(function () {
-            //$(this).next(".option-content").stop().slideToggle(500);
-            $(this).find(".arrow-up, .arrow-down").toggle();
-            if (jQuery(".arrow-up").css('display') == 'inline') {
-                $('.googlemap-toggle').css('border-bottom', '0px solid');
-            } else {
-                $('.googlemap-toggle').css('border-bottom', '1px solid');
-            };
-        });
-
-    </script>
-    <script>
-        $(function () {
-            $('.item1').click(function () {
-                $('.bx-viewport0').css('display', 'block');
-                $('.bx-viewport1').css('display', 'none');
-                $('.bx-viewport2').css('display', 'none');
-                $('.bx-viewport3').css('display', 'none');
-                $('.bx-viewport4').css('display', 'none');
-            });
-            $('.item2').click(function () {
-                $('.bx-viewport0').css('display', 'none');
-                $('.bx-viewport1').css('display', 'block');
-                $('.bx-viewport2').css('display', 'none');
-                $('.bx-viewport3').css('display', 'none');
-                $('.bx-viewport4').css('display', 'none');
-            });
-            $('.item3').click(function () {
-                $('.bx-viewport0').css('display', 'none');
-                $('.bx-viewport1').css('display', 'none');
-                $('.bx-viewport2').css('display', 'block');
-                $('.bx-viewport3').css('display', 'none');
-                $('.bx-viewport4').css('display', 'none');
-            });
-            $('.item4').click(function () {
-                $('.bx-viewport0').css('display', 'none');
-                $('.bx-viewport1').css('display', 'none');
-                $('.bx-viewport2').css('display', 'none');
-                $('.bx-viewport3').css('display', 'block');
-                $('.bx-viewport4').css('display', 'none');
-            });
-            $('.item5').click(function () {
-                $('.bx-viewport0').css('display', 'none');
-                $('.bx-viewport1').css('display', 'none');
-                $('.bx-viewport2').css('display', 'none');
-                $('.bx-viewport3').css('display', 'none');
-                $('.bx-viewport4').css('display', 'block');
-            });
-        });
-    </script>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>

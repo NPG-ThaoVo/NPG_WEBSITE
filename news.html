@@ -49,11 +49,11 @@
                 </div>
                 <div id="navbar-collapse" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="hvr-underline-from-center"> <a href="#service" class="">Services</a></li>
-                        <li class="hvr-underline-from-center"> <a href="#access" class="">Projects</a></li>
-                        <li class="hvr-underline-from-center"> <a href="#profile" class="">Profile</a></li>
+                        <li class="hvr-underline-from-center"> <a href="index.html#service" class="">Services</a></li>
+                        <li class="hvr-underline-from-center"> <a href="index.html#access" class="">Projects</a></li>
+                        <li class="hvr-underline-from-center"> <a href="index.html#profile" class="">Profile</a></li>
                         <li class="hvr-underline-from-center"> <a href="#contact" class="">Contact</a></li>
-                        <li class="hvr-underline-from-center"> <a href="#news">News</a></li>
+                        <li class="hvr-underline-from-center"> <a href="news.html">News</a></li>
                     </ul>
                 </div>
             </div>
@@ -267,7 +267,7 @@
                             <div class="categories-list">
                                 <div class="ai remove">
                                     <a href="#">
-                                        AI
+                                        AI123
                                         <span class="fa fa-times-circle close" id="icon-delete"></span>
                                     </a>
 
@@ -292,15 +292,13 @@
                                         IOS
                                     </a>
                                 </div>
-                            </div>
-                            <div class="categories-list">
                                 <div class="ai">
                                     <a href="#">
                                         AI
                                     </a>
                                 </div>
-                                <div class="ux-ui">
-                                    <a href="#">
+                                <div class="ux-ui"><input type="hidden" value="id"/>
+                                    <a href="" onclick="">
                                         UX/UI Design
                                     </a>
                                 </div>
@@ -319,8 +317,8 @@
                                         IOS
                                     </a>
                                 </div>
-                            </div>
-                            <div class="categories-list-2">
+
+
                                 <div class="ai">
                                     <a href="#">
                                         AI
@@ -335,8 +333,10 @@
                                     <a href="#">
                                         Development Tools
                                     </a>
-                                </div>
+                                </div>  
                             </div>
+                                
+                          
                         </div>
 
                         <div class="featured-news">
@@ -534,60 +534,8 @@
                 $(".remove").remove();
             });
         });
-        $('.googlemap-section').on('click', function () {
-            $('.googlemap-content').fadeToggle("slow");
-        });
-        $(".googlemap-section").click(function () {
-            //$(this).next(".option-content").stop().slideToggle(500);
-            $(this).find(".arrow-up, .arrow-down").toggle();
-            if (jQuery(".arrow-up").css('display') == 'inline') {
-                $('.googlemap-toggle').css('border-bottom', '0px solid');
-            } else {
-                $('.googlemap-toggle').css('border-bottom', '1px solid');
-            };
-        });
 
     </script>
-    <script>
-        $(function () {
-            $('.item1').click(function () {
-                $('.bx-viewport0').css('display', 'block');
-                $('.bx-viewport1').css('display', 'none');
-                $('.bx-viewport2').css('display', 'none');
-                $('.bx-viewport3').css('display', 'none');
-                $('.bx-viewport4').css('display', 'none');
-            });
-            $('.item2').click(function () {
-                $('.bx-viewport0').css('display', 'none');
-                $('.bx-viewport1').css('display', 'block');
-                $('.bx-viewport2').css('display', 'none');
-                $('.bx-viewport3').css('display', 'none');
-                $('.bx-viewport4').css('display', 'none');
-            });
-            $('.item3').click(function () {
-                $('.bx-viewport0').css('display', 'none');
-                $('.bx-viewport1').css('display', 'none');
-                $('.bx-viewport2').css('display', 'block');
-                $('.bx-viewport3').css('display', 'none');
-                $('.bx-viewport4').css('display', 'none');
-            });
-            $('.item4').click(function () {
-                $('.bx-viewport0').css('display', 'none');
-                $('.bx-viewport1').css('display', 'none');
-                $('.bx-viewport2').css('display', 'none');
-                $('.bx-viewport3').css('display', 'block');
-                $('.bx-viewport4').css('display', 'none');
-            });
-            $('.item5').click(function () {
-                $('.bx-viewport0').css('display', 'none');
-                $('.bx-viewport1').css('display', 'none');
-                $('.bx-viewport2').css('display', 'none');
-                $('.bx-viewport3').css('display', 'none');
-                $('.bx-viewport4').css('display', 'block');
-            });
-        });
-    </script>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>

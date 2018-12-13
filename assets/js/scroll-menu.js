@@ -20,7 +20,7 @@ jq(window).load(function () {
     element = document.getElementById(id);
     if (element != null) {
         var pos = element.offsetTop - jq('#navbar-collapse').height();
-        jq('body, html').animate({ scrollTop: pos }, 1000);
+        jq('body, html').animate({ scrollTop: pos }, 5000);
     }
     currentPage();
     jq(window).resize(function () {
@@ -103,11 +103,11 @@ function currentPage() {
     }
 }
 
-jQuery(document).scroll(function () {
-    if (jQuery(this).scrollTop() > 400) {
-        $('.web-logo').addClass('tiny');
-    } else {
-        $('.web-logo').removeClass('tiny');
+//jQuery(document).scroll(function () {
+//    if (jQuery(this).scrollTop() > 400) {
+//        $('.web-logo').addClass('tiny');
+//    } else {
+//        $('.web-logo').removeClass('tiny');
 
-    }
-});
+//    }
+//});

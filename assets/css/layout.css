@@ -75,9 +75,11 @@ h5 span, h6 span,
 div.featured-box.nobg.border-only i.fa {
     color: #F07057 !important;
 }
-.isotope .isotope-item .item-box .bg-green{
-    background-color:#62893b;
+
+.isotope .isotope-item .item-box .bg-green {
+    background-color: #62893b;
 }
+
 .btn-primary {
     border-color: #333;
     background-color: #333;
@@ -2221,14 +2223,17 @@ footer p {
         background-color: white;
         width: 150px;
     }
+
     .isotope .isotope-item .item-box:hover .item-box-desc {
-        color:white;
+        color: white;
     }
+
     .isotope .isotope-item .item-box:hover h4 {
-        color:white!important;
+        color: white !important;
     }
+
     .isotope .isotope-item .item-box:hover .bg-green {
-        background-color:white!important;
+        background-color: white !important;
     }
 
 #profile input,
@@ -3270,7 +3275,7 @@ h1.header-every {
 }
 
 hr.darkers {
-   border: 1px solid #8C6B8A;
+    border: 1px solid #8C6B8A;
     width: 100%;
     margin-top: 3px;
     background: #8C6B8A;
@@ -3383,7 +3388,7 @@ p.detail-text-every {
     .short-content {
         margin-left: 0px;
         margin-right: 0px;
-        display:inline-block;
+        display: inline-block;
     }
 
     p.detail-text-every {
@@ -3413,7 +3418,7 @@ End project.html
 @media only screen and (min-width:1025px) {
     .text-home-product {
         margin-top: 240px;
-        background: rgba(96,136,31,0.5215686274509804);
+        background: rgba(96, 136, 31, 0.7);
         padding-top: 40px;
         padding-bottom: 40px;
         padding-right: 20px;
