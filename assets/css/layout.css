@@ -75,8 +75,8 @@ h5 span, h6 span,
 div.featured-box.nobg.border-only i.fa {
     color: #F07057 !important;
 }
-.isotope .isotope-item .item-box .bg-black{
-    background-color:black;
+.isotope .isotope-item .item-box .bg-green{
+    background-color:#62893b;
 }
 .btn-primary {
     border-color: #333;
@@ -2227,7 +2227,7 @@ footer p {
     .isotope .isotope-item .item-box:hover h4 {
         color:white!important;
     }
-    .isotope .isotope-item .item-box:hover .bg-black {
+    .isotope .isotope-item .item-box:hover .bg-green {
         background-color:white!important;
     }
 
