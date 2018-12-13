@@ -1331,7 +1331,7 @@ p span.label {
     }
 
     .nav-logoheader {
-        margin-top: 15px;
+        margin-top: 3px;
     }
 
     #header {
@@ -2855,7 +2855,7 @@ i.up {
     }
 
     .nav-logoheader img {
-        max-height: 35px !important;
+        max-height: 42px !important;
     }
 
     .container > .navbar-header, .container > .navbar-header, .container > .navbar-collapse, .container > .navbar-collapse {
@@ -3025,6 +3025,13 @@ i.up {
 @media only screen and (min-width: 1024px) {
     .text-home .header-texthome {
         word-break: break-all;
+    }
+
+    .detail-text-every {
+        font-size: 32px;
+        color: white;
+        margin-top: -85px;
+        line-height: 35px;
     }
 }
 
@@ -3216,10 +3223,6 @@ p.detail-text-every {
 }
 
 @media only screen and (max-width: 768px) {
-    .short-content {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
 
     p.detail-text-every {
         font-size: 18px;
@@ -3256,9 +3259,10 @@ h1.header-every {
 }
 
 hr.darkers {
-    border: 1px solid #8C6B8A;
+   border: 1px solid #8C6B8A;
     width: 100%;
     margin-top: 3px;
+    background: #8C6B8A;
 }
 
 hr.white {
@@ -3315,7 +3319,6 @@ p.text-content-shall {
     letter-spacing: 1px;
     font-weight: 200;
     line-height: 25px;
-    text-align: justify;
 }
 
 h1.shall-we-srart {
@@ -3329,11 +3332,12 @@ h1.shall-we-srart {
 }
 
 p.detail-text-every {
-    background: #8C6B8A;
     font-size: 32px;
-    padding: 40px;
+    padding: 30px;
     color: white;
     margin-top: -85px;
+    /* width: 800px; */
+    line-height: 35px;
 }
 
 .short-content {
@@ -3366,8 +3370,9 @@ p.detail-text-every {
     }
 
     .short-content {
-        margin-left: 3%;
-        margin-right: 3%;
+        margin-left: 0px;
+        margin-right: 0px;
+        display:inline-block;
     }
 
     p.detail-text-every {
@@ -3400,6 +3405,7 @@ End project.html
         background: rgba(96,136,31,0.5215686274509804);
         padding-top: 40px;
         padding-bottom: 40px;
+        padding-right: 20px;
         width: 50%;
     }
 
@@ -3462,7 +3468,7 @@ End project.html
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     #header {
-        height: 100px;
+        height: 80px;
     }
 
     .text-home-product {
@@ -3600,7 +3606,7 @@ End project.html
 @media only screen and (max-height: 450px) {
 
     .text-home-product {
-        margin-top: 135px;
+        margin-top: 70px;
     }
 
     #header .navbar img {
@@ -3722,4 +3728,9 @@ End project.html
         margin-top: 5px!important;
         font-size: 24px !important;
 }*/
+}
+
+.text-home-every {
+    text-align: -webkit-center;
+    background: #8C6B8A;
 }
