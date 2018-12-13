@@ -143,11 +143,11 @@ a {
     transition: .25s;
 }
 
-    a:hover, a:focus {
+    /*a:hover, a:focus {
         color: #FFF;
         text-decoration: none;
         outline: none;
-    }
+    }*/
 
     a[href*='tel'], a[href*='mailto'] {
         white-space: nowrap;

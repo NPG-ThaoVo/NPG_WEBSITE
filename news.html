@@ -137,12 +137,12 @@
                         </div>
 
 
-                        
+
 
 
                     </div>
-            </div>
                 </div>
+            </div>
 
 
             <div class="row">
@@ -160,8 +160,11 @@
                                         </div>
                                         <div class="col-md-7 col-sm-12 col-xs-12">
                                             <div class="content-right">
-                                                <p class="title-news">Mozilla is concerned about Microsoft’s decision to ditch EdgeHTML</p>
-                                                <p class="detail-news">The open internet advocates at Mozilla have shared their concern that Microsoft’s decision to ditch EdgeHTML hands too much power to Google.</p>
+                                                <p class="title-news" title="Mozilla is concerned about Microsoft’s decision to ditch EdgeHTML Mozilla is concerned about Microsoft’s decision to ditch EdgeHTML">Mozilla is concerned about Microsoft’s decision to ditch EdgeHTML Mozilla is concerned about Microsoft’s decision to ditch EdgeHTML</p>
+                                                <p class="detail-news">
+                                                    The open internet advocates at Mozilla have shared their concern that Microsoft’s decision to ditch EdgeHTML hands too much power to Google.
+                                                    The open internet advocates at Mozilla have shared their concern that Microsoft’s decision to ditch EdgeHTML hands too much power to Google.
+                                                </p>
                                                 <div class="user-time">
                                                     <img style="width:16px; height:16px;" src="assets/images/icon/Icon - Circle - Filled.svg" />
                                                     <p>
@@ -274,75 +277,79 @@
                             <p class="categories-name"> CATEGORIES </p>
                             <div class="categories-list">
                                 <div class="ai">
-                                    <a href="#">
+                                    <a class="hash_tag" hhref="javascript:void(0)">
                                         AI
                                     </a>
+                                    <!--<span class="fa fa-times-circle close" id="icon-delete"></span>-->
                                 </div>
-                                <div class="ux-ui">
-                                    <a href="#">
+                                <div class="ux-ui remove">
+                                    <a class="hash_tag" href="javascript:void(0)">
                                         UX/UI Design
                                     </a>
+                                    <span class="fa fa-times-circle close" id="icon-delete"></span>
                                 </div>
                                 <div class="dev-tools">
-                                    <a href="#">
+                                    <a class="hash_tag" href="javascript:void(0)">
                                         Development Tools
                                     </a>
                                 </div>
                                 <div class="lang">
-                                    <a href="#">
+                                    <a class="hash_tag" href="javascript:void(0)">
                                         Languages
                                     </a>
                                 </div>
                                 <div class="ios">
-                                    <a href="#">
+                                    <a class="hash_tag" href="javascript:void(0)">
                                         IOS
                                     </a>
                                 </div>
                             </div>
                             <div class="categories-list">
                                 <div class="ai">
-                                    <a href="#">
+                                    <a class="hash_tag" href="javascript:void(0)">
                                         AI
                                     </a>
                                 </div>
                                 <div class="ux-ui">
-                                    <a href="#">
+                                    <a class="hash_tag" href="javascript:void(0)">
                                         UX/UI Design
                                     </a>
                                 </div>
                                 <div class="dev-tools">
-                                    <a href="#">
+                                    <a class="hash_tag" href="javascript:void(0)">
                                         Development Tools
                                     </a>
                                 </div>
                                 <div class="lang">
-                                    <a href="#">
+                                    <a class="hash_tag" href="javascript:void(0)">
                                         Languages
                                     </a>
                                 </div>
                                 <div class="ios">
-                                    <a href="#">
+                                    <a class="hash_tag" href="javascript:void(0)">
                                         IOS
                                     </a>
                                 </div>
                             </div>
                             <div class="categories-list">
                                 <div class="ai">
-                                    <a href="#">
+                                    <a class="hash_tag" href="javascript:void(0)">
                                         AI
                                     </a>
                                 </div>
                                 <div class="ux-ui">
-                                    <a href="#">
+                                    <a class="hash_tag" href="javascript:void(0)">
                                         UX/UI Design
                                     </a>
                                 </div>
                                 <div class="dev-tools">
-                                    <a href="#">
+                                    <a class="hash_tag" href="javascript:void(0)">
                                         Development Tools
                                     </a>
                                 </div>
+
                             </div>
+
                         </div>
 
                         <div class="featured-news">
@@ -363,6 +370,7 @@
             </div>
         </div>
     </section>
+
     <div class="clearfix"></div>
     <section id="contact">
         <div class="container">
@@ -479,7 +487,7 @@
                 </div>
             </div>
         </div>
-        </div>
+      
     </footer>
     <div id="copyright">
         <div class="container">
@@ -510,6 +518,13 @@
     <script type="text/javascript" src="assets/js/scroll-menu.js"></script>
     <script type="text/javascript" src="assets/js/script_v2.js"></script>
     <script type="text/javascript" src="assets/js/scripts.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#icon-delete").click(function () {
+                $(".remove").remove();
+            });
+        });
+    </script>
     <script>
         $(document).ready(function () { })
         $('.owl-carousel').owlCarousel({
