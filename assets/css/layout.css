@@ -34,10 +34,10 @@ body {
     letter-spacing: 0px;
     font-size: 15px;
     line-height: 23px;
-    overflow:auto!important;
+    overflow: auto !important;
     zoom: 100%;
-    margin:0;
-    width:100%;
+    margin: 0;
+    width: 100%;
 }
 
 
@@ -677,7 +677,7 @@ div.inner-cover {
 .item-box {
     background: #fff;
     overflow: hidden;
-    margin: 16px 0;
+    margin: 10px 0;
     width: 100%;
     position: relative;
     -webkit-border-radius: 6px;
@@ -1176,31 +1176,31 @@ p span.label {
 }
 
 #commentForm {
-    padding: 15px;
+    padding: 30px;
 }
 
 .symbol-ES {
-    height: 45px;
+    height: 30px;
 }
 
 .symbol-WD {
-    height: 55px;
+    height: 32px;
 }
 
 .symbol-BPO {
-    height: 60px;
+    height: 37px;
 }
 
 .symbol-BS {
-    height: 55PX;
+    height: 35PX;
 }
 
 .symbol-BWA {
-    height: 48px;
+    height: 33px;
 }
 
 .symbol-MAD {
-    height: 50px;
+    height: 34px;
 }
 
 #blog .blog-prev-date {
@@ -1331,7 +1331,7 @@ p span.label {
     }
 
     .nav-logoheader {
-        margin-top: 15px;
+        margin-top: 3px;
     }
 
     #header {
@@ -1405,7 +1405,7 @@ footer {
 }
 
 .footer-area h3 {
-    font-size: 20px;
+    font-size: 15px;
     color: #92278F;
     font-weight: 700;
     padding-bottom: 10px;
@@ -1420,7 +1420,7 @@ ul.footer-social {
 .footer-area ul li a {
     color: black;
     font-size: 13px;
-    font-weight: 400px;
+    font-weight: 400;
     margin-bottom: 42px;
 }
 
@@ -1438,12 +1438,12 @@ ul.footer-social {
         background: #EFEFEF;
         width: 35px;
         height: 35px;
-        line-height: 35px;
+        line-height: 20px;
         display: block;
         border-radius: 4px;
-        font-size: 35px;
+        font-size: 25px;
         margin-top: 10px;
-        margin-left: 33px;
+        margin-left: 10px;
         transition: all .3s ease-in-out 0s;
         -moz-transition: all .3s ease-in-out 0s;
         -webkit-transition: all .3s ease-in-out 0s;
@@ -1552,6 +1552,10 @@ footer p {
 }
 
 @media only screen and (max-width: 767px) {
+    .footer-area ul li a {
+        margin-bottom: 0px !important;
+    }
+
     .text-home-product {
         margin-top: 240px;
         background: #61882085;
@@ -2152,7 +2156,6 @@ footer p {
 }
 
 .detail-service p {
-    text-align: justify;
     font-size: 16px;
 }
 
@@ -2232,12 +2235,12 @@ footer p {
 }
 
 #contact_submit {
-    width: 189px;
-    height: 48px;
+    width: 175px;
+    height: 40px;
     border-radius: 35px;
     background-color: #92278f;
     border-color: #92278f;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .googlemap-content {
@@ -2354,9 +2357,9 @@ i.up {
 
 .text-home {
     margin-top: 300px;
-    background: rgba(96,136,31,0.5215686274509804);
-    padding-top: 35px;
-    padding-bottom: 52px;
+    background: rgba(96, 136, 31, 0.7);
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
     .text-home .detail-texthome {
@@ -2368,7 +2371,7 @@ i.up {
         font-weight: 700;
         margin-bottom: 40px;
     }
-    /*end*/
+/*end*/
 
 @media only screen and (max-width: 768px) {
     #copyright p {
@@ -2382,7 +2385,10 @@ i.up {
     .address, .home, .email {
         text-align: center;
         border-bottom: 1px inset #ddd;
-        padding-bottom: 10px;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .logo-icon-footer {
         padding-top: 10px;
     }
 
@@ -2397,6 +2403,8 @@ i.up {
             margin-bottom: 22px;
             line-height: 43px;
         }
+
+
 
         .text-home .detail-texthome {
             font-size: 18px;
@@ -2623,8 +2631,8 @@ i.up {
     }
 
     #profile .table-cell .destails-profile {
-        font-size: 16px;
-        text-align: justify;
+        font-size: 14px;
+        text-align: center;
     }
 
     #profile .table-cell {
@@ -2641,7 +2649,7 @@ i.up {
     }
 
     .detail-service .symbol-BWA {
-        height: 26px !important;
+        height: 35px !important;
     }
 
     .detail-service .symbol-BS {
@@ -2813,6 +2821,10 @@ i.up {
 }
 
 @media only screen and (max-width: 768px) {
+    div.portfolio-items {
+        text-align: center;
+        margin-top: 25px;
+    }
 
     .bx-wrapper div div {
         text-align: -webkit-center;
@@ -2823,7 +2835,7 @@ i.up {
     }
 
     #header {
-        height: 100px;
+        height: 80px;
     }
 
     .blocker {
@@ -2843,7 +2855,7 @@ i.up {
     }
 
     .nav-logoheader img {
-        max-height: 35px !important;
+        max-height: 42px !important;
     }
 
     .container > .navbar-header, .container > .navbar-header, .container > .navbar-collapse, .container > .navbar-collapse {
@@ -3009,11 +3021,20 @@ i.up {
         padding-right: 0px !important;
     }
 }
+
 @media only screen and (min-width: 1024px) {
-    .text-home .header-texthome{
+    .text-home .header-texthome {
         word-break: break-all;
     }
+
+    .detail-text-every {
+        font-size: 32px;
+        color: white;
+        margin-top: -85px;
+        line-height: 35px;
+    }
 }
+
 @media only screen and (min-width: 1024px) and (max-height: 400px) {
     .text-home {
         margin-top: 100px;
@@ -3202,10 +3223,6 @@ p.detail-text-every {
 }
 
 @media only screen and (max-width: 768px) {
-    .short-content {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
 
     p.detail-text-every {
         font-size: 18px;
@@ -3221,20 +3238,6 @@ p.detail-text-every {
         font-weight: 600;
     }
 }
-
-/*Hai-code-news*/
-.images-news{
-    text-align: left;
-    margin-left: -110px;
-    font-size: 17px;
-    line-height: 25px;
-}
-
-img .images-news{
-    width: 100%;
-    height: auto;
-}
-/*end news*/
 
 /*Hai Code*/
 /*------------------CSS a Ba*/
@@ -3256,9 +3259,10 @@ h1.header-every {
 }
 
 hr.darkers {
-    border: 1px solid #8C6B8A;
+   border: 1px solid #8C6B8A;
     width: 100%;
     margin-top: 3px;
+    background: #8C6B8A;
 }
 
 hr.white {
@@ -3315,7 +3319,6 @@ p.text-content-shall {
     letter-spacing: 1px;
     font-weight: 200;
     line-height: 25px;
-    text-align: justify;
 }
 
 h1.shall-we-srart {
@@ -3329,11 +3332,12 @@ h1.shall-we-srart {
 }
 
 p.detail-text-every {
-    background: #8C6B8A;
     font-size: 32px;
-    padding: 40px;
+    padding: 30px;
     color: white;
     margin-top: -85px;
+    /* width: 800px; */
+    line-height: 35px;
 }
 
 .short-content {
@@ -3357,16 +3361,18 @@ p.detail-text-every {
 
 @media only screen and (max-width: 768px) {
     .btn-popup {
-    padding: 5px 29px;
-    font-size: 15px;
-}
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+
     .text-home {
         margin-top: 200px;
     }
 
     .short-content {
-        margin-left: 3%;
-        margin-right: 3%;
+        margin-left: 0px;
+        margin-right: 0px;
+        display:inline-block;
     }
 
     p.detail-text-every {
@@ -3399,14 +3405,7 @@ End project.html
         background: rgba(96,136,31,0.5215686274509804);
         padding-top: 40px;
         padding-bottom: 40px;
-        width: 50%;
-    }
-
-    .text-news {
-        margin-top: 100px;
-        background: rgba(96,136,31,0.5215686274509804);
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-right: 20px;
         width: 50%;
     }
 
@@ -3469,7 +3468,7 @@ End project.html
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     #header {
-        height: 100px;
+        height: 80px;
     }
 
     .text-home-product {
@@ -3548,10 +3547,11 @@ End project.html
     .text-home .detail-texthome {
         font-size: 18px;
     }
+
     .btn-getsrat {
-    margin-top: 25px!important;
-}
-/*hai-code-index*/
+        margin-top: 25px !important;
+    }
+    /*hai-code-index*/
     .text-home {
         margin-top: 165px !important;
         padding-top: 0px !important;
@@ -3604,9 +3604,9 @@ End project.html
 }
 
 @media only screen and (max-height: 450px) {
-    
+
     .text-home-product {
-        margin-top: 135px;
+        margin-top: 70px;
     }
 
     #header .navbar img {
@@ -3656,8 +3656,9 @@ End project.html
 
 @media only screen and (width: 823px) and (height: 411px) {
     body .bx-wrapper {
-        margin: 0px auto!important;
+        margin: 0px auto !important;
     }
+
     #portfolio .isotope-filter li {
         margin-left: 0px;
         font-size: 10px;
@@ -3707,24 +3708,29 @@ End project.html
 
 @media only screen and (max-height: 260px) {
 
-        /*hai-code-index*/
-        body .bx-viewport {
-            height: 68px !important;
-        }
+    /*hai-code-index*/
+    body .bx-viewport {
+        height: 68px !important;
+    }
 
-        .text-home .header-texthome {
+    .text-home .header-texthome {
         margin-bottom: 0px !important;
         font-size: 20px !important;
-        }
-        /*end*/
-        .text-home {
-            margin-top: 80px !important;
-            padding-top: 0px !important;
-            padding-bottom: 20px !important;
-        }
+    }
+    /*end*/
+    .text-home {
+        margin-top: 80px !important;
+        padding-top: 0px !important;
+        padding-bottom: 20px !important;
+    }
 
-        /*.text-home .header-texthome {
+    /*.text-home .header-texthome {
         margin-top: 5px!important;
         font-size: 24px !important;
 }*/
-    }
+}
+
+.text-home-every {
+    text-align: -webkit-center;
+    background: #8C6B8A;
+}

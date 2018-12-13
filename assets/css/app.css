@@ -8269,7 +8269,7 @@ body .bx-wrapper {
     }
 
     body .bx-viewport {
-        height: 115px !important;
+        height: 80px !important;
     }
 
 
@@ -8303,8 +8303,13 @@ body .bx-wrapper {
         body .contentHead .contentHead-title {
             font-size: 4rem;
         }
+        body .bx-viewport {
+    height: 116px !important;
+}
     }
-
+     /*body .bx-viewport {
+        height: 115px !important;
+    }*/ 
     body .contentHead .contentHead-caption {
         font-size: 18px;
         font-size: 1.8rem;
@@ -11596,7 +11601,7 @@ body .bx-wrapper {
 
     @media (max-width: 991px) {
         .navbar-inverse {
-            height: 75px;
+            height: 55px;
         }
     }
 
