@@ -585,52 +585,53 @@
  **************************************************************** **/
 	function _isotope() {
 
-		jQuery("ul.isotope-filter").each(function() {
+	    jQuery("ul.isotope-filter").each(function () {
 
-			var _el		 		= jQuery(this),
-				destination 	= jQuery("ul.sort-destination[data-sort-id=" + jQuery(this).attr("data-sort-id") + "]");
+	        var _el = jQuery(this),
+				destination = jQuery("ul.sort-destination[data-sort-id=" + jQuery(this).attr("data-sort-id") + "]");
 
-			if(destination.get(0)) {
+	        if (destination.get(0)) {
 
-				jQuery(window).load(function() {
+	            jQuery(window).load(function () {
 
-					destination.isotope({
-						itemSelector: 	"li",
-						layoutMode: 	'sloppyMasonry'
-					});
+	                destination.isotope({
+	                    itemSelector: "li",
+	                    layoutMode: 'sloppyMasonry'
+	                });
 
-					_el.find("a").click(function(e) {
+	                _el.find("a").click(function (e) {
 
-						e.preventDefault();
+	                    e.preventDefault();
 
-						var $_t 	= jQuery(this),
-							sortId 	= $_t.parents(".sort-source").attr("data-sort-id"),
-							filter 	= $_t.parent().attr("data-option-value");
+	                    var $_t = jQuery(this),
+							sortId = $_t.parents(".sort-source").attr("data-sort-id"),
+							filter = $_t.parent().attr("data-option-value");
 
-						_el.find("li.active").removeClass("active");
-						$_t.parent().addClass("active");
+	                    _el.find("li.active").removeClass("active");
+	                    $_t.parent().addClass("active");
 
-						destination.isotope({
-							filter: filter
-						});
+	                    destination.isotope({
+	                        filter: filter
+	                    });
 
-						jQuery(".sort-source-title[data-sort-id=" + sortId + "] strong").html($_t.html());
-						return false;
+	                    jQuery(".sort-source-title[data-sort-id=" + sortId + "] strong").html($_t.html());
+	                    return false;
 
-					});
+	                });
 
-				});
+	            });
 
-			}
+	        }
 
-		});
+	    });
 
 
-		jQuery(window).load(function() {
+	    jQuery(window).load(function () {
 
-			jQuery("ul.isotope").addClass('fadeIn');
+	        jQuery("ul.isotope").addClass('fadeIn');
+	        jQuery("ul.isotope-filter").find("li:first-child a").click();
 
-		});
+	    });
 
 
 	}

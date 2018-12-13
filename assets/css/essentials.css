@@ -1459,7 +1459,7 @@ div.circular-bar-content {
 
     .parallax * {
         color: #fff;
-        /*text-shadow: #000 1px 1px 1px;*/
+        text-shadow: #000 1px 1px 1px;
     }
 
     .parallax .btn {

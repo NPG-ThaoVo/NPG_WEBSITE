@@ -144,7 +144,7 @@ a {
 }
 
     a:hover, a:focus {
-        color: #57bfb6;
+        color: #FFF;
         text-decoration: none;
         outline: none;
     }
@@ -11345,10 +11345,6 @@ h5 + img,
     margin-top: 30px;
 }
 
-* + .row {
-    margin-top: 30px;
-}
-
 * + .divider-light {
     margin-top: 30px;
 }
@@ -11540,9 +11536,6 @@ h5 + .rd-mailform,
     margin-top: 35px;
 }
 
-.row + .row {
-    margin-top: 40px;
-}
 
 .container + .container {
     margin-top: 45px;
@@ -11666,10 +11659,6 @@ h5 + .rd-mailform,
         margin-top: 50px;
     }
 
-    .row + .row {
-        margin-top: 55px;
-    }
-
     .page * + .offset-0 {
         margin-top: 0;
     }
@@ -11692,10 +11681,6 @@ h5 + .rd-mailform,
 @media (min-width: 1200px) {
     * + p {
         margin-top: 11px;
-    }
-
-    * + .row {
-        margin-top: 50px;
     }
 
     * + .quote-line {
@@ -18722,7 +18707,7 @@ yx-axis
     display: inline-block;
     width: 13px;
     height: 13px;
-    border: 2px solid #57bfb6;
+    border: 2px solid #668844;
     margin-left: 5px;
     margin-right: 5px;
     text-align: center;
@@ -18737,7 +18722,7 @@ yx-axis
     }
 
     .owl-dot.active {
-        background-color: #57bfb6;
+        background-color: #668844;
     }
 
 /**
@@ -18762,9 +18747,6 @@ yx-axis
     }
 
 @media (min-width: 576px) {
-    .quote-creative-carousel .owl-item {
-        padding: 30px 45px;
-    }
 
     .quote-creative-carousel .item {
         margin-left: -20px;
@@ -18808,9 +18790,9 @@ yx-axis
             right: 0;
         }
 
-        .owl-outer-navigation-wrap.owl-carousel_nav-modern .owl-dots {
+    /*.owl-outer-navigation-wrap.owl-carousel_nav-modern .owl-dots {
             display: none !important;
-        }
+        }*/
 }
 
 @media (min-width: 1600px) {
