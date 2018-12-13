@@ -75,7 +75,9 @@ h5 span, h6 span,
 div.featured-box.nobg.border-only i.fa {
     color: #F07057 !important;
 }
-
+.isotope .isotope-item .item-box .bg-black{
+    background-color:black;
+}
 .btn-primary {
     border-color: #333;
     background-color: #333;
@@ -592,7 +594,7 @@ div.price-table.popular p span {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    color: white;
+    color: black;
 }
 
 #portfolio .nav-pills {
@@ -2208,7 +2210,7 @@ footer p {
 }
 
 .item-box-desc {
-    color: white;
+    color: black;
 }
 
 .isotope .isotope-item .item-box:hover {
@@ -2218,6 +2220,15 @@ footer p {
     .isotope .isotope-item .item-box:hover .border-isotope-item {
         background-color: white;
         width: 150px;
+    }
+    .isotope .isotope-item .item-box:hover .item-box-desc {
+        color:white;
+    }
+    .isotope .isotope-item .item-box:hover h4 {
+        color:white!important;
+    }
+    .isotope .isotope-item .item-box:hover .bg-black {
+        background-color:white!important;
     }
 
 #profile input,
