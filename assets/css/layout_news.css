@@ -303,8 +303,13 @@
 .categories .ux-ui span {
     display: none;
 }
-
+.categories .ai span {
+    display: none;
+}
 .categories .ux-ui:hover span {
+    display: block;
+}
+.categories .ai:hover span {
     display: block;
 }
 
