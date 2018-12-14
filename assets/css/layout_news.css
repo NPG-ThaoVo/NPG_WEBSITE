@@ -243,7 +243,7 @@
 }
 
 .featured-news {
-    border-top: 8px solid #8b2688;
+    border-top: 5px solid #8b2688;
     padding-left: 0px !important;
     width: 100%;
     background-color: #F2F2F2;
@@ -774,3 +774,259 @@
         -webkit-transform: translate3d(0,0,0);
         transform: translate3d(0,0,0);
     }
+
+    /*---------------------------------------------------------------------------CSS news details----------------------------------*/
+.head-title{
+    position: relative;
+    margin-bottom: 50px;
+}
+.head-title-content {
+    font-size: 48px;
+    line-height: 65px;
+    text-align: left;
+    font-weight: 700;
+    color: #3B3B3B;
+}
+.user-time-2 {
+    position: absolute;
+    bottom: -35px;
+    display: flex;
+}
+
+.user-time-2 img + p {
+    margin-top: -3px !important;
+}
+
+.user-time-2 img:nth-of-type(2) {
+    margin-left: 20px;
+}
+
+.user-time-2 p {
+    margin-left: 8px;
+}
+
+.lastest-news-content {
+    padding-left: 0px !important;
+    width: 100%;
+    background-color: #F2F2F2;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+}
+
+.content-lastest-news-2 {
+    padding-bottom: 20px;
+}
+
+.content-1{
+    padding-top:36px;
+    padding: 36px 50px 0px 50px;
+    padding-right:50px;
+    text-align: left;
+}
+
+.content-1-1{
+     padding-top: 0px; 
+     font-size: 16px;
+     line-height: 20px;
+}
+
+.content-2 {
+    padding: 16px 50px 25px 65px;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.content-2-1{
+
+}
+
+.content-3 {
+    padding: 36px 50px 35px 50px;
+    padding-right: 50px;
+    text-align: left;
+
+}
+
+.content-3-1 {
+    padding-top: 0px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.content-image{
+    width: 100%;
+
+}
+
+.share p {
+    text-align: right;
+    letter-spacing: 2px;
+    position: absolute;
+    right: 0px;
+   
+}
+
+textarea {
+    height: 183px;
+    padding: 25px !important;
+}
+
+.lac p {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-align: left;
+    color: #3B3B3B;
+    padding: 10px 0px 10px 65px;
+}
+
+.rel-st p {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-align: left;
+    color: #3B3B3B;
+    padding: 10px 0px 10px 65px;
+    text-decoration: underline;
+}
+
+.lastest-news-content-2 {
+    padding-left: 0px !important;
+    width: 100%;
+    border-top: 5px solid #92278F;
+    background-color: #F2F2F2;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+}
+
+#contactFormCmt {
+    text-align: center !important;
+    padding: 5px 65px !important;
+}
+    #contactFormCmt #contact_comment {
+        height: 150px;
+        border: 1px solid #983295;
+        border-radius: 30px;
+    }
+#comment_submit {
+    width: 175px;
+    height: 40px;
+    border-radius: 35px;
+    background-color: #92278f;
+    border-color: #92278f;
+    font-size: 15px;
+}
+
+.featured-news-2 {
+    padding-left: 0px !important;
+    width: 100%;
+    background-color: #F2F2F2;
+    position: relative;
+    display: flex;
+    padding-top: 22px;
+
+}
+
+.featured-list-2 img {
+    width: 100%;
+}
+
+.featured-list-2{
+    padding-right:25px;
+}
+
+.featured-content-2 {
+    padding: 10px 18px 34px 18px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #474747;
+    text-align: left;
+    font-weight: 600;
+}
+.featured-news-2 .featured-list-2:nth-of-type(4) {
+    padding-right: 0px !important;
+}
+
+@media only screen and (max-width: 812px) {
+    .head-title-content {
+        font-size: 26px;
+        line-height: 30px;
+        text-align: left;
+        font-weight: 700;
+        color: #3B3B3B;
+    }
+
+    .content-1 {
+        padding: 25px 10px 0px 10px;
+        text-align: left;
+    }
+    .content-2 {
+        padding: 25px 10px 0px 10px;
+        font-style: italic;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    .content-image {
+        width: 100%;
+        padding-top:10px;
+    }
+
+    .content-3 {
+        padding: 25px 10px 0px 10px;
+        text-align: left;
+    }
+
+    #contactFormCmt {
+        text-align: center !important;
+        padding: 5px 10px !important;
+    }
+
+
+    .lac p {
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 2px;
+        text-align: center;
+        font-weight: 600;
+        color: #3B3B3B;
+        padding: 8px 0px 5px 0px!important;
+    }
+
+    #comment_submit {
+        width: 175px;
+        height: 40px;
+        border-radius: 35px;
+        background-color: #92278f;
+        border-color: #92278f;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .rel-st p {
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        text-align: left;
+        color: #3B3B3B;
+        text-align: center;
+        padding: 5px 0px;
+        text-decoration: underline;
+    }
+
+    .owl-carousel .owl-item div {
+        text-align:center;
+    }
+
+}
+.slider-news-details .owl-dots{
+    display:none;
+}
