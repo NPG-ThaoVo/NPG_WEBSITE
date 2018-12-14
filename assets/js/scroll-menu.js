@@ -20,7 +20,7 @@ jq(window).load(function () {
     element = document.getElementById(id);
     if (element != null) {
         var pos = element.offsetTop - jq('#navbar-collapse').height();
-        jq('body, html').animate({ scrollTop: pos }, 5000);
+        jq('body, html').animate({ scrollTop: pos }, 1000);
     }
     currentPage();
     jq(window).resize(function () {
@@ -37,7 +37,8 @@ jq(window).load(function () {
                 id = jq(tagA_id);
             if (id.length === 0) { return; }
             e.preventDefault();
-            var pos = id.offset().top - jq('#menu').height();
+            //var pos = id.offset().top - jq('#menu').height();
+            var pos = id.offset().top - 60;
             jq('body, html').animate({ scrollTop: pos }, 1000);
             // Set current location to reference link
             window.location = jq(this).attr('href');
@@ -53,7 +54,7 @@ function setHeightHeader() {
     jq('#menus').removeAttr('style');
     if (window.innerWidth < 991) {
         clickMenu();
-        jq('#menus').css('height', window.innerHeight - 0);
+        jq('#menus').css('height', window.innerHeight);
         jq('.navBlock-tel').show();
     } else {
         jq('#menus').removeAttr('style');

@@ -544,7 +544,7 @@
 
 			if(href != '#') {
 				window._lastScrollTo = href;
-				jQuery('html,body').animate({scrollTop: jQuery(href).offset().top/* - 60*/}, 1000, 'easeInOutExpo');
+				jQuery('html,body').animate({scrollTop: jQuery(href).offset().top}, 1000, 'easeInOutExpo');
 			}
 		});
 
