@@ -7105,13 +7105,11 @@ button.list-group-item-danger {
 
 .close {
     float: right;
-    font-size: 21px;
-    font-weight: bold;
     line-height: 1;
-    color: #000;
-    text-shadow: 0 1px 0 #fff;
-    opacity: 0.2;
+    color: #848688;
+    opacity: 0.8;
     filter: alpha(opacity=20);
+    text-shadow:none;
 }
 
     .close:hover,
@@ -7124,14 +7122,19 @@ button.list-group-item-danger {
     }
 
 button.close {
-    padding: 0;
+        padding: 0;
     cursor: pointer;
-    background: transparent;
+    /* background: black; */
     border: 0;
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 25px;
+        position: absolute
 }
 
-.modal-open {
+/*.modal-open {
     overflow: hidden;
 }
 
@@ -7275,7 +7278,7 @@ button.close {
     .modal-lg {
         width: 900px;
     }
-}
+}*/
 
 .tooltip {
     position: absolute;
@@ -12121,7 +12124,7 @@ body .bx-wrapper {
         opacity: 0;
     }
 
-    #myWork.modal {
+    /*#myWork.modal {
         padding: 0 !important;
         z-index: 9999;
         height: auto;
@@ -12279,7 +12282,7 @@ body .bx-wrapper {
 
         #myWork.modal .modal-dialog .modal-content .modal-body .content button {
             min-height: 40px;
-        }
+        }*/
 
     .price-table > h3 {
         margin-bottom: 10px;

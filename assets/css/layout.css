@@ -34,7 +34,7 @@ body {
     letter-spacing: 0px;
     font-size: 15px;
     line-height: 23px;
-    overflow: auto !important;
+    overflow: auto;
     zoom: 100%;
     margin: 0;
     width: 100%;
@@ -1297,6 +1297,7 @@ p span.label {
 
 .text-slider {
     margin-top: 35px;
+    color: white;
 }
 
 /*#screenshots .owl-carousel .owl-item {
@@ -1319,13 +1320,20 @@ p span.label {
 }
 
 @media only screen and (width: 768px) {
+    .text-home {
+    padding-top: 28px!important;
+    padding-bottom: 28px!important;
+}
+    .text-home .detail-texthome{
+        margin-top:55px;
+    }
     #service .detail-service strong {
         color: black;
         font-size: 16px;
     }
 
     .quote-creative-carousel {
-        margin-top: 0px!important;
+        margin-top: 0px !important;
     }
 
     #service .detail-service {
@@ -2392,12 +2400,14 @@ i.up {
 
     .text-home .detail-texthome {
         font-size: 32px;
+        color: white;
     }
     /*hai-code-index*/
     .text-home .header-texthome {
         font-size: 50px;
         font-weight: 700;
         margin-bottom: 40px;
+        color: white;
     }
 /*end*/
 
@@ -2629,6 +2639,9 @@ i.up {
 }
 
 @media only screen and (max-width: 479px) {
+    .container-contact100 {
+        margin-top: 32px;
+    }
     /*.img-avt {
         background-image: url(../images/ceo-xs.gif);
         width: 269px;
@@ -2805,6 +2818,7 @@ i.up {
 
 .btn-getsrat {
     margin-top: 40px;
+    color: lightgray;
 }
 
 /*.nav-logoheader {
@@ -2828,9 +2842,9 @@ i.up {
     }
 }
 
-.modal {
+/*.modal {
     max-width: 750px !important;
-}
+}*/
 
 @media only screen and (max-width: 400px) {
     .text-home {
@@ -3064,6 +3078,7 @@ i.up {
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 400px) {
+
     .text-home {
         margin-top: 100px;
         background: rgba(96,136,31,0.5215686274509804);
@@ -3097,7 +3112,7 @@ i.up {
 }
 
 
-.modal a.close-modal[class*="icon-"] {
+/*.modal a.close-modal[class*="icon-"] {
     top: -10px;
     right: -10px;
     width: 20px;
@@ -3121,7 +3136,7 @@ a.close-modal {
     background-color: rgba(239, 239, 239, 0.84) !important;
     top: 30px;
     border: 2px solid #8b278b;
-}
+}*/
 
 .fw-l {
     padding-bottom: 30px;
@@ -3632,7 +3647,9 @@ End project.html
 }
 
 @media only screen and (max-height: 450px) {
-
+        .container-contact100 {
+        margin-top: 60px;
+    }
     .text-home-product {
         margin-top: 70px;
     }

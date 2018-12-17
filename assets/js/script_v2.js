@@ -1495,19 +1495,19 @@ var $ =jQuery.noConflict();
 		 * Select2
 		 * @description Enables select2 plugin
 		 */
-		if (plugins.selectFilter.length) {
-			var i;
-			for (i = 0; i < plugins.selectFilter.length; i++) {
-				var select = $(plugins.selectFilter[i]);
+		//if (plugins.selectFilter.length) {
+		//	var i;
+		//	for (i = 0; i < plugins.selectFilter.length; i++) {
+		//		var select = $(plugins.selectFilter[i]);
 
-				select.select2({
-					placeholder: select.attr("data-placeholder") ? select.attr("data-placeholder") : false,
-					minimumResultsForSearch: select.attr("data-minimum-results-search") ? select.attr("data-minimum-results-search") : -1,
-					maximumSelectionSize: 3,
-					dropdownCssClass: select.attr("data-dropdown-class") ? select.attr("data-dropdown-class") : ''
-				});
-			}
-		}
+		//		select.select2({
+		//			placeholder: select.attr("data-placeholder") ? select.attr("data-placeholder") : false,
+		//			minimumResultsForSearch: select.attr("data-minimum-results-search") ? select.attr("data-minimum-results-search") : -1,
+		//			maximumSelectionSize: 3,
+		//			dropdownCssClass: select.attr("data-dropdown-class") ? select.attr("data-dropdown-class") : ''
+		//		});
+		//	}
+		//}
 
 		// lightGallery
 		if (plugins.lightGallery.length) {
