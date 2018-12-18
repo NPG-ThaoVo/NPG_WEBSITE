@@ -55,7 +55,7 @@
                 </div>
 
                 <div class="btn-getsrat">
-                    <a class="btn-popup" data-toggle="modal" data-target="#myModal">Get Started Today</a>
+                    <button class="btn-popup" data-toggle="modal" data-target="#myModal">Get Started Today</button>
                 </div>
             </div>
         </div>
@@ -706,54 +706,56 @@
 
     <!-- Modal HTML -->
     <div id="myModal" class="modal fade-in">
-        <div class="container-contact100">
-            <div class="wrap-contact100">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
+       <div class="animate">
+           <div class="container-contact100">
+               <div class="wrap-contact100">
+                   <button type="button" class="close" data-dismiss="modal">&times;</button>
 
-                <form class="contact100-form validate-form">
-                    
-                    <div class="wrap-input100 validate-input" data-validate="Name is required">
-                        <input class="input100" type="text" name="name" placeholder="Fullname">
-                    </div>
+                   <form class="contact100-form validate-form">
 
-                    <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                        <input class="input100" type="text" name="email" placeholder="Company">
-                    </div>
+                       <div class="wrap-input100 validate-input" data-validate="Name is required">
+                           <input class="input100" type="text" name="name" placeholder="Fullname">
+                       </div>
 
-                    <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                        <input class="input100" type="text" name="email" placeholder="Work email address">
-                    </div>
-                    <div class="wrap-input100 input100-select">
-                        <div>
-                            <select class="selection-2" name="service">
-                                <option>Enterested service of product</option>
-                                <option>Choose Services</option>
-                                <option>Online Store</option>
-                                <option>eCommerce Bussiness</option>
-                                <option>UI/UX Design</option>
-                                <option>Online Services</option>
-                            </select>
-                        </div>
-                    </div>
+                       <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                           <input class="input100" type="text" name="email" placeholder="Company">
+                       </div>
+
+                       <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                           <input class="input100" type="text" name="email" placeholder="Work email address">
+                       </div>
+                       <div class="wrap-input100 input100-select">
+                           <div>
+                               <select class="selection-2" name="service">
+                                   <option>Enterested service of product</option>
+                                   <option>Choose Services</option>
+                                   <option>Online Store</option>
+                                   <option>eCommerce Bussiness</option>
+                                   <option>UI/UX Design</option>
+                                   <option>Online Services</option>
+                               </select>
+                           </div>
+                       </div>
 
 
-                    <div class="wrap-input100 validate-input" data-validate="Message is required">
-                        <textarea class="input100" name="message" placeholder="Send your message"></textarea>
-                    </div>
+                       <div class="wrap-input100 validate-input" data-validate="Message is required">
+                           <textarea class="input100" name="message" placeholder="Send your message"></textarea>
+                       </div>
 
-                    <div class="container-contact100-form-btn">
-                        <div class="wrap-contact100-form-btn">
-                            <div class="contact100-form-bgbtn"></div>
-                            <button class="contact100-form-btn btn-popup">
-                                <span>
-                                    Submit
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
+                       <div class="container-contact100-form-btn">
+                           <div class="wrap-contact100-form-btn">
+                               <div class="contact100-form-bgbtn"></div>
+                               <button class="contact100-form-btn btn-popup">
+                                   <span>
+                                       Submit
+                                   </span>
+                               </button>
+                           </div>
+                       </div>
+                   </form>
+               </div>
+           </div>
+       </div>
     </div>
     <div id="dropDownSelect1"></div>
     <!-- JAVASCRIPT FILES-->
@@ -886,32 +888,3 @@
     </script>
 </body>
 </html>
-<div id="ex3" class="modal margin-top20" style="background-color: #EFEFEF;top: 30px">
-    <form id="contactForm" class="row white block form-inline">
-        <form id="contactForm" class="row white block form-inline">
-            <div class="col-md-12 col-sm-12">
-                <input required="" class="fullwidth form-control input-lg margin-top20" type="text" name="contact_name" id="contact_name" value="" placeholder="Fullname *" title="Name">
-                <input required="" class="fullwidth form-control input-lg margin-top20" type="text" name="contact_company" id="contact_name" value="" placeholder="Company *" title="Name">
-
-                <input required="" class="fullwidth form-control input-lg margin-top20" type="email" name="contact_email" id="contact_email" value="" placeholder="Work email address *" title="Email">
-
-            </div>
-            <div class="col-md-12 col-sm-6 margin-top20">
-                <select id="form_need" name="need" class="fullwidth form-control input-lg" required="required" data-error="Enterested service of product">
-                    <option value="">Please specify your need *</option>
-                    <option value="Request quotation">Request quotation</option>
-                    <option value="Request order status">Request order status</option>
-                    <option value="Request copy of an invoice">Request copy of an invoice</option>
-                    <option value="Other">Other</option>
-                </select>
-            </div>
-            <div class="col-md-12 col-sm-12 margin-top20">
-                <textarea required="" class="fullwidth form-control input-lg" rows="5" name="contact_comment" id="contact_comment" placeholder="Send your message *"></textarea>
-            </div>
-
-            <div class="col-md-12 col-sm-12 text-center margin-top20">
-                <input type="hidden" name="captcha" id="captcha" value="">
-                <button id="contact_submit" class="btn btn-primary">Submit</button>
-            </div>
-        </form>
-</div>

@@ -1321,12 +1321,14 @@ p span.label {
 
 @media only screen and (width: 768px) {
     .text-home {
-    padding-top: 28px!important;
-    padding-bottom: 28px!important;
-}
-    .text-home .detail-texthome{
-        margin-top:55px;
+        padding-top: 28px !important;
+        padding-bottom: 28px !important;
     }
+
+        .text-home .detail-texthome {
+            margin-top: 55px;
+        }
+
     #service .detail-service strong {
         color: black;
         font-size: 16px;
@@ -2165,6 +2167,7 @@ footer p {
     font-size: 19px;
     font-weight: 700;
     text-shadow: none !important;
+    color: white;
 }
 
 #service .detail-service strong {
@@ -2848,7 +2851,7 @@ i.up {
 
 @media only screen and (max-width: 400px) {
     .text-home {
-        margin-top: 200px !important;
+        margin-top: 75px !important;
         padding-top: 0px !important;
         padding-bottom: 30px !important;
     }
@@ -2863,6 +2866,15 @@ i.up {
 }
 
 @media only screen and (max-width: 768px) {
+    .km-chat-icon-sidebox {
+        width: 55px!important;
+        height: 55px!important;
+    }
+
+        .km-chat-icon-sidebox svg {
+            width: 31px!important;
+        }
+
     div.portfolio-items {
         text-align: center;
         margin-top: 25px;
@@ -3647,9 +3659,10 @@ End project.html
 }
 
 @media only screen and (max-height: 450px) {
-        .container-contact100 {
+    .container-contact100 {
         margin-top: 60px;
     }
+
     .text-home-product {
         margin-top: 70px;
     }
