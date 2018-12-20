@@ -38,7 +38,7 @@ jq(window).load(function () {
             if (id.length === 0) { return; }
             e.preventDefault();
             //var pos = id.offset().top - jq('#menu').height();
-            var pos = id.offset().top - 60;
+            var pos = id.offset().top - jq('#menu').height();
             jq('body, html').animate({ scrollTop: pos }, 1000);
             // Set current location to reference link
             window.location = jq(this).attr('href');

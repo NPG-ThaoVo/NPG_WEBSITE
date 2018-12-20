@@ -26,6 +26,7 @@
     <script type="text/javascript" src="assets/plugins/modernizr.min.js"></script>
     <link href="assets/css/app.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
     <!--<link rel="manifest" href="manifest.json">-->
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/images/logo.png">
@@ -596,6 +597,7 @@
                 <form id="contactForm" class="row white block form-inline">
                     <div class="col-md-6 col-sm-6">
                         <input required="" class="fullwidth form-control input-lg" type="text" name="contact_name" id="contact_name" value="" placeholder="Name *" title="Name">
+                        <input required="" class="fullwidth form-control input-lg" type="email" name="contact_email" id="contact_email" value="" placeholder="Company Name *" title="Email">
                         <input required="" class="fullwidth form-control input-lg" type="email" name="contact_email" id="contact_email" value="" placeholder="Email *" title="Email">
                         <input class="fullwidth form-control input-lg" type="text" name="contact_subject" id="contact_subject" value="" placeholder="Subject *" title="subject" required="">
                     </div>
@@ -738,7 +740,7 @@
                        </div>
 
 
-                       <div class="wrap-input100 validate-input" data-validate="Message is required">
+                       <div class="wrap-input100 validate-input" style="display:table;" data-validate="Message is required">
                            <textarea class="input100" name="message" placeholder="Send your message"></textarea>
                        </div>
 

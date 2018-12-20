@@ -388,16 +388,13 @@
                 </div>
                 <form id="contactForm" class="row white block form-inline">
                     <div class="col-md-6 col-sm-6">
-                        <input required="" class="fullwidth form-control input-lg" type="text" name="contact_name" id="contact_name"
-                               value="" placeholder="Name *" title="Name">
-                        <input required="" class="fullwidth form-control input-lg" type="email" name="contact_email" id="contact_email"
-                               value="" placeholder="Email *" title="Email">
-                        <input class="fullwidth form-control input-lg" type="text" name="contact_subject" id="contact_subject"
-                               value="" placeholder="Subject *" title="subject" required="">
+                        <input required="" class="fullwidth form-control input-lg" type="text" name="contact_name" id="contact_name" value="" placeholder="Name *" title="Name">
+                        <input required="" class="fullwidth form-control input-lg" type="email" name="contact_email" id="contact_email" value="" placeholder="Company Name *" title="Email">
+                        <input required="" class="fullwidth form-control input-lg" type="email" name="contact_email" id="contact_email" value="" placeholder="Email *" title="Email">
+                        <input class="fullwidth form-control input-lg" type="text" name="contact_subject" id="contact_subject" value="" placeholder="Subject *" title="subject" required="">
                     </div>
                     <div class="col-md-6 col-sm-6">
-                        <textarea required="" class="fullwidth form-control input-lg" rows="6" name="contact_comment"
-                                  id="contact_comment" placeholder="Message *"></textarea>
+                        <textarea required="" class="fullwidth form-control input-lg" rows="6" name="contact_comment" id="contact_comment" placeholder="Message *"></textarea>
                     </div>
                     <div class="col-md-12 text-center margin-top40">
                         <input type="hidden" name="captcha" id="captcha" value="">
@@ -548,14 +545,22 @@
             if (jQuery(".arrow-up").css('display') == 'inline') {
                 $('.googlemap-toggle').css('border-bottom', '0px solid');
             } else {
-                $('.googlemap-toggle').css('border-bottom', '1px solid');
+                $('.googlemap-toggle').css('border-bottom', '1px solid #e6e6e6');
             };
         });
 
     </script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script type="text/javascript">
+    /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+    (function (d, m) {
+    var kommunicateSettings = { "appId": "1f28c8fe586db397adec4eb036d8ea6d5", "conversationTitle": "AI-ChatBot" };
+    var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+    s.src = "https://api.kommunicate.io/kommunicate.app";
+    var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+    window.kommunicate = m; m._globals = kommunicateSettings;
+    })(document, window.kommunicate || {});
+    </script>
+   
 </body>
 
 </html>
