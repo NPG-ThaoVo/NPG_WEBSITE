@@ -20,7 +20,7 @@ jq(window).load(function () {
     element = document.getElementById(id);
     if (element != null) {
         var pos = element.offsetTop - jq('#navbar-collapse').height();
-        jq('body, html').animate({ scrollTop: pos }, 1000);
+        jq('body, html').animate({ scrollTop: pos - 100 }, 1000);
     }
     currentPage();
     jq(window).resize(function () {
