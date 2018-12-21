@@ -598,10 +598,10 @@
                     <p>Let us know how we can assist you by giving us a call at (+84)-98-2082-872</p>
                     <p>sending an email to contact@napaglobal.com</p>
                 </div>
-                <form id="contactForm" class="row white block form-inline">
+                <form id="contact_Form" name="contract_Form" method="post" class="row white block form-inline">
                     <div class="col-md-6 col-sm-6">
                         <input required="" class="fullwidth form-control input-lg" type="text" name="contact_name" id="contact_name" value="" placeholder="Name *" title="Name">
-                        <input required="" class="fullwidth form-control input-lg" type="email" name="contact_email" id="contact_email" value="" placeholder="Company Name *" title="Email">
+                        <input required="" class="fullwidth form-control input-lg" type="text" name="contact_company" id="contact_company" value="" placeholder="Company Name *" title="Company Name">
                         <input required="" class="fullwidth form-control input-lg" type="email" name="contact_email" id="contact_email" value="" placeholder="Email *" title="Email">
                         <input class="fullwidth form-control input-lg" type="text" name="contact_subject" id="contact_subject" value="" placeholder="Subject *" title="subject" required="">
                     </div>
@@ -609,8 +609,9 @@
                         <textarea required="" class="fullwidth form-control input-lg" rows="6" name="contact_comment" id="contact_comment" placeholder="Message *"></textarea>
                     </div>
                     <div class="col-md-12 text-center margin-top40">
-                        <input type="hidden" name="captcha" id="captcha" value="">
-                        <button id="contact_submit" class="btn btn-primary">SEND MESSAGE</button>
+                        <span id="mess"></span>
+                        <div style="clear:both"></div>
+                        <button id="contact_submit" class="btn btn-primary">SEND MESSAGE</button>   
                     </div>
                 </form>
             </header>

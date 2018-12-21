@@ -782,87 +782,90 @@
 ************************************************** **/
 	function _contact() {
 
+		jQuery("input").bind("blur", function(e){
+			jQuery(this).removeClass("has-error");
+		})
 		jQuery("#contact_submit").bind("click", function(e) {
-
+			
 			var contact_name 	= jQuery("#contact_name").val(),			// required
 				contact_email 	= jQuery("#contact_email").val(),			// required
-				contact_subject = jQuery("#contact_subject").val(),			// optional
+				contact_company = jQuery("#contact_company").val(),			// required
+				contact_subject = jQuery("#contact_subject").val(),
 				contact_comment = jQuery("#contact_comment").val(),			// required
-				captcha 		= jQuery("#captcha").val(),					// required TO BE EMPTY if humans
-				_action			= '/sendmail', //jQuery("#contactForm").attr('action'),	// form action URL
+				_action			= '/mail.php', //jQuery("#contactForm").attr('action'),	// form action URL
 				_method			= 'post', //jQuery("#contactForm").attr('method'),	// form method
 				_err			= false;									// status
 
 			// Remove error class
 			jQuery("input, textarea").removeClass('err');
 
-			// Spam bots will see captcha field - that's how we decet spams.
-			// It's very simple and not very efficient antispam method but works for bots.
-			if(captcha != '') {
-				return false;
-			}
-
 		    // Name Check
 			if(contact_name == '') {
 				jQuery("#contact_name").addClass('err');
-				var _err = true;
+			    _err = true;
 			}
-
+			//company check
+			if(contact_company == '') {
+				jQuery("#contact_company").addClass('err');
+			    _err = true;
+			}
+			//subject check
+			if(contact_subject == '') {
+				jQuery("#contact_subject").addClass('err');
+			    _err = true;
+			}
+//			var email_reg = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/i;
 			// Email Check
-			if(contact_email == '') {
-				jQuery("#contact_email").addClass('err');
-				var _err = true;
+			if(contact_email == ''){
+				jQuery("#email").addClass('err');
+			    _err = true;
 			}
 
 			// Comment Check
 			if(contact_comment == '') {
-				jQuery("#contact_comment").addClass('err');
-				var _err = true;
+				jQuery("#message").addClass('err');
+				_err = true;
 			}
 
-			// Stop here, we have empty fields!
 			if(_err !== true) {
 				e.preventDefault();
-
+				var data = jQuery('#contact_Form').serializeArray();
+				jQuery("#contact_submit").attr("disabled", "disabled");
 				// SEND MAIL VIA AJAX
-				$.ajax({
+				jQuery.ajax({
 					url: 	_action,
-					data: 	{ajax:"true", action:'email_send', contact_name:contact_name, contact_email:contact_email, contact_comment:contact_comment, contact_subject:contact_subject},
+					data: 	data,
 					type: 	_method,
+					dataType: 'json',
+                    cache: false,
+                    timeout: 70000,
+                    beforeSend: function() {
+                        jQuery('#mess').text('Processing...').addClass("purple");
+                    }, 
 					error: 	function(XMLHttpRequest, textStatus, errorThrown) {
-
-						alert('Server Internal Error'); // usualy on headers 404
-
+						jQuery('#mess').text('Server Internal Error'); // usualy on headers 404
 					},
 
 					success: function(data) {
+						jQuery("#contact_submit").removeAttr("disabled");
 						data = data.trim(); // remove output spaces
 
 
 						// PHP RETURN: Mandatory Fields
 						if(data == '_required_') {
-							alert('Please, complete required fields!');
+							jQuery('#mess').text('Please, complete required fields!');
 						} else
 
 						// PHP RETURN: INVALID EMAIL
 						if(data == '_invalid_email_') {
-							alert('Invalid Email');
-						} else
+							jQuery('#mess').text('Invalid Email').addClass('has-error');
+							jQuery('#contact_email').addClass("has-error");
+						} else{
 
 						// VALID EMAIL
-						if(data == '_sent_ok_') {
-
-							// append message and show ok alert
-							jQuery("#_msg_txt_").empty().append('Message Sent, Thank you!');
-							jQuery("#_sent_ok_").removeClass('hide');
-
 							// reset form
-							jQuery("#contact_name, #contact_email, #contact_subject, #contact_comment").val('');
-
-						} else {
-
-							// PHPMAILER ERROR
-							alert(data); 
+							jQuery('#mess').text('Thankyou for contact us. We will reply you soon.').addClass("has-success");
+							jQuery("#contact_name, #contact_email, #contact_company, #contact_comment, #contact_subject").val('');
 
 						}
 					}
