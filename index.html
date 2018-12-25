@@ -724,26 +724,17 @@
                            <input class="input100" type="text" name="name" placeholder="Fullname">
                        </div>
 
-                       <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                           <input class="input100" type="text" name="email" placeholder="Company">
+                       <div class="wrap-input100 validate-input" data-validate="Company Name is required">
+                           <input class="input100" type="text" name="company" placeholder="Company">
                        </div>
 
                        <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
                            <input class="input100" type="text" name="email" placeholder="Work email address">
                        </div>
-                       <div class="wrap-input100 input100-select">
-                           <div>
-                               <select class="selection-2" name="service">
-                                   <option>Enterested service of product</option>
-                                   <option>Choose Services</option>
-                                   <option>Online Store</option>
-                                   <option>eCommerce Bussiness</option>
-                                   <option>UI/UX Design</option>
-                                   <option>Online Services</option>
-                               </select>
-                           </div>
+                      
+                       <div class="wrap-input100 validate-input">
+                           <input class="input100" type="text" name="subject" data-validate="Subject is required" placeholder="Subject">
                        </div>
-
 
                        <div class="wrap-input100 validate-input" style="display:table;" data-validate="Message is required">
                            <textarea class="input100" name="message" placeholder="Send your message"></textarea>
@@ -782,25 +773,9 @@
     <script type="text/javascript" src="assets/js/script_v2.js"></script>
     <script type="text/javascript" src="assets/js/scripts.js"></script>
     <script src="assets/js/select-popup.js"></script>
-    <!--<script type="text/javascript">
-        $(".selection-2").select2({
-            minimumResultsForSearch: 20,
-            dropdownParent: $('#dropDownSelect1')
-        });
-    </script>-->
+    <script src="assets/js/popup-validation.js"></script>
     <script>
-        $(document).ready(function () {
-            $('.btn-popup').click(function () {
-                $('body').css('overflow', 'hidden');
-            });
-            $('.close').click(function () {
-                $('body').css('overflow', 'auto');
-            });
-        });
-        $(".selection-2").select2({
-            minimumResultsForSearch: 20,
-            dropdownParent: $('#dropDownSelect1')
-        });
+       
         $(document).ready(function () { })
         $(this).addClass('active');
         $('.owl-carousel').owlCarousel({

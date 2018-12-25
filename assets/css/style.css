@@ -127,6 +127,7 @@ html.boxed .rd-navbar-static.rd-navbar--is-stuck .rd-navbar-main-outer {
 }
 
 body {
+
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -142,12 +143,6 @@ a {
     text-decoration: none;
     transition: .25s;
 }
-
-    a:hover, a:focus {
-        color: #FFF;
-        text-decoration: none;
-        outline: none;
-    }
 
     a[href*='tel'], a[href*='mailto'] {
         white-space: nowrap;
