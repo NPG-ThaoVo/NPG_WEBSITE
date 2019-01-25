@@ -222,9 +222,10 @@ iframe {
     /*font-family: Poppins-Medium;*/
     font-size: 18px;
     /*color: #333333;*/
-    color: #92278F;
+    color: black;
     line-height: 1.2;
     padding: 15px 5px 5px 20px;
+    background-color: transparent!important;
 }
 
 .focus-input100 {
@@ -256,7 +257,7 @@ iframe {
 /*---------------------------------------------*/
 input.input100 {
     height: 30px;
-    color: gray;
+    color: black;
 }
 
 
@@ -579,4 +580,7 @@ textarea.input100 {
 @keyframes animatezoom {
     from {transform: scale(0)} 
     to {transform: scale(1)}
+}
+.input:-internal-autofill-selected{
+    background-color:red!important;
 }

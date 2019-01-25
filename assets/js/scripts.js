@@ -929,7 +929,6 @@
 	        if (_err !== true) {
 	            e.preventDefault();
 	            var data = jQuery('#contact_modal_Form').serializeArray();
-	            alert(data);
 	            jQuery("#contact_submit_modal").attr("disabled", "disabled");
 	            // SEND MAIL VIA AJAX
 	            jQuery.ajax({

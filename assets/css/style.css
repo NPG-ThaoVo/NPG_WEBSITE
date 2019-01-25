@@ -2,6 +2,11 @@
 /*
 * Trunk version 2.0.0
 */
+#mess_modal{
+    width:100%;
+    text-align:center;
+    color:red;
+}
 a:focus,
 button:focus {
     outline: none !important;
