@@ -864,7 +864,7 @@
 
 						// VALID EMAIL
 							// reset form
-							jQuery('#mess').text('Thankyou for contact us. We will reply you soon.').addClass("has-success");
+							jQuery('#mess').text('Thank you for contact us. We will reply you soon.').addClass("has-success");
 							jQuery("#contact_name, #contact_email, #contact_company, #contact_comment, #contact_subject").val('');
 
 						}
