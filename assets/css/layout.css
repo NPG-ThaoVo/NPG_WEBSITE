@@ -3557,7 +3557,9 @@ End project.html
         line-height: 25px;
         margin-top: 4px;
     }
-
+    designs-detail2{
+        line-height: 25px;
+    }
     .designs-bottom {
         padding: 85px 8px;
         padding-left: 110px;
