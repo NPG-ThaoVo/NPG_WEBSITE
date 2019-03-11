@@ -1999,6 +1999,7 @@ footer p {
         font-size: 33px;
         font-weight: 400;
         margin-bottom: 22px;
+        line-height:40px;
     }
 
     .text-home-product .detail-texthome-product {
@@ -3530,6 +3531,7 @@ End project.html
             font-size: 40px;
             margin-left: 35%;
             letter-spacing: 2px;
+            line-height:50px;
         }
 
         .text-home-product .detail-texthome-product {
@@ -3557,7 +3559,7 @@ End project.html
         line-height: 25px;
         margin-top: 4px;
     }
-    designs-detail2{
+    .designs-detail2{
         line-height: 25px;
     }
     .designs-bottom {
