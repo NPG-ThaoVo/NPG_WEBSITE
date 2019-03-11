@@ -3411,7 +3411,7 @@ h1.custonmer-website {
 
 strong.header-every {
     color: black;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 p.content-custom-website {
@@ -3459,7 +3459,7 @@ p.detail-text-every {
 .header-customer-detail {
     text-align: left;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 3px;
     font-weight: 600;
 }
@@ -3932,4 +3932,7 @@ End project.html
 }
 .modal-backdrop.in{
     opacity:0.5!important;
+}
+.content-flex{
+    display:inline-block;
 }
