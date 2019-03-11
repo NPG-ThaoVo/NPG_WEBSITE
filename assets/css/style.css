@@ -18530,9 +18530,9 @@ yx-axis
 /*
  * Owl Navigation
  */
-.owl-nav.disabled {
+/*.owl-nav.disabled {
     display: none !important;
-}
+}*/
 
 .owl-carousel_nav-modern .owl-prev,
 .owl-carousel_nav-modern .owl-next,
@@ -18741,7 +18741,7 @@ yx-axis
     }
 
     .quote-creative-carousel .owl-dots {
-        margin-top: -10px;
+        margin-top: 10px;
     }
 
 @media (min-width: 576px) {
@@ -18776,7 +18776,7 @@ yx-axis
         .owl-outer-navigation-wrap.owl-carousel_nav-modern .owl-prev,
         .owl-outer-navigation-wrap.owl-carousel_nav-modern .owl-next {
             position: absolute;
-            top: 50%;
+            top: 65%;
             transform: translateY(-50%);
         }
 
