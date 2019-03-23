@@ -21055,3 +21055,10 @@ input.has-error:focus {
 span.has-success{
     color: #3c763d !important;
 }
+#contact .owl-item:hover{
+    background-color: #618820;
+}
+#contact .owl-item:hover .border-isotope-item {
+    background-color: white;
+    width: 150px;
+}
