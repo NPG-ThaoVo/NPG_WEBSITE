@@ -29,15 +29,9 @@
 	    google.maps.event.addDomListener(window, 'load', initMap);
 
 	//Google Analytics
-	(function (i, s, o, g, r, a, m) {
-	    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-	        (i[r].q = i[r].q || []).push(arguments)
-	    }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-	})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-	ga('create', 'UA-60119329-1', 'auto');
-	ga('send', 'pageview');
+
+
 
 	function initMap() {
 	    // The latitude and longitude to center the map (always required)
@@ -598,7 +592,8 @@
 
 	                destination.isotope({
 	                    itemSelector: "li",
-	                    layoutMode: 'sloppyMasonry'
+	                    layoutMode: 'sloppyMasonry',
+	                    filter: '.blockchain',
 	                });
 
 	                _el.find("a").click(function (e) {

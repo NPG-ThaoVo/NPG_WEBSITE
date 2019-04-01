@@ -1692,13 +1692,13 @@ footer p {
     padding-top: 20px;
     letter-spacing: 7px;
     line-height: 40px;
-    margin-left: -215px;
+    margin-left: -100px;
     color: black;
 }
 
 .designs-detail {
     text-align: left;
-    margin-left: -110px;
+    margin-left: -100px;
     font-size: 17px;
     line-height: 25px;
     margin-top: 4px;
@@ -2918,7 +2918,8 @@ i.up {
     }
 
     #service .detail-service {
-        min-height: 185px;
+       min-height: initial;
+       max-height: initial;
     }
 }
 
@@ -3545,16 +3546,16 @@ End project.html
     .designs-header {
         font-size: 40px;
         font-weight: 600;
-        padding-top: 20px;
+        padding-top: 20px;  
         letter-spacing: 7px;
         line-height: 40px;
-        margin-left: -212px;
+        margin-left: -100px;
         color: black;
     }
 
     .designs-detail {
         text-align: left;
-        margin-left: -110px;
+        margin-left: -100px;
         font-size: 17px;
         line-height: 25px;
         margin-top: 4px;
