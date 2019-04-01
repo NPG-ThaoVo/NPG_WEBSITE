@@ -94,12 +94,12 @@ function currentPage() {
     var url = window.location.href.toString();
     for (var i = 0; i < menuItems.length; i++) {
         var hrefA = jq(menuItems[i]).attr('href');
-        (url.includes(hrefA)) ? jq(menuItems[i]).parent("li").addClass('active') : jq(menuItems[i]).parent("li").removeClass('active');
+        (url.indexOf(href) >= 0) ? jq(menuItems[i]).parent("li").addClass('active') : jq(menuItems[i]).parent("li").removeClass('active');
     }
-    if (url.includes('/request-quote/')) {
+    if (url.indexOf('/request-quote/') >= 0) {
         menuItems.filter("[href*='#contact']").addClass("active");
     }
-    if (url.includes('/news/')) {
+    if (url.indexOf('/news/') >= 0) {
         menuItems.filter("[href*='#news']").addClass("active");
     }
 }
