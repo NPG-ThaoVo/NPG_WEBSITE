@@ -1564,9 +1564,6 @@ footer p {
         text-align: justify;
     }
 
-    .img-avt {
-        height: 310px !important;
-    }
 }
 
 
@@ -2347,82 +2344,26 @@ i.up {
         font-size: 14px;
     }
 
-.img-avt-1 {
-    background-image: url(../images/ceo.png);
+.img-avt {
+    /*background-image: url(../images/ceo.png);*/
     /* width: 300px; */
-    height: 290px;
+    /*height: 290px;*/
     border: 1.5px solid #6c3a9d;
     background-size: cover;
-    position: relative;
+    /*position: relative;*/
 }
 
-    .img-avt-1 .name-img {
-        position: absolute;
+    .img-avt .name-img {
+        /*position: absolute;*/
         font-weight: 600;
-        bottom: 0px;
+        /*bottom: 0px;*/
         text-align: center;
         width: 100%;
         line-height: 50px;
         background-color: #6c3b9dd9;
         font-size: 20px;
     }
-.img-avt-2 {
-    background-image: url('../images/avt-kimbui.jpg');
-    /* width: 300px; */
-    height: 290px;
-    border: 1.5px solid #6c3a9d;
-    background-size: cover;
-    position: relative;
-}
 
-    .img-avt-2 .name-img {
-        position: absolute;
-        font-weight: 600;
-        bottom: 0px;
-        text-align: center;
-        width: 100%;
-        line-height: 50px;
-        background-color: #6c3b9dd9;
-        font-size: 20px;
-    }
-    .img-avt-3 {
-    background-image: url(../images/ceo-demo.jpg);
-    /* width: 300px; */
-    height: 290px;
-    border: 1.5px solid #6c3a9d;
-    background-size: cover;
-    position: relative;
-}
-
-    .img-avt-3 .name-img {
-        position: absolute;
-        font-weight: 600;
-        bottom: 0px;
-        text-align: center;
-        width: 100%;
-        line-height: 50px;
-        background-color: #6c3b9dd9;
-        font-size: 20px;
-    }
-.img-avt-4 {
-    background-image: url(../images/ceo-demo.jpg);
-    /* width: 300px; */
-    height: 290px;
-    border: 1.5px solid #6c3a9d;
-    background-size: cover;
-    position: relative;
-}
-
-    .img-avt-4 .name-img {
-        position: absolute;
-        font-weight: 600;
-        bottom: 0px;
-        text-align: center;
-        width: 100%;
-        line-height: 50px;
-        background-color: #6c3b9dd9;
-        font-size: 20px;
-    }
 .bx-viewport1 {
     display: none;
 }
@@ -2911,10 +2852,6 @@ i.up {
         margin-top: 75px !important;
         padding-top: 0px !important;
         padding-bottom: 30px !important;
-    }
-
-    .img-avt {
-        height: 250px !important;
     }
 
     #service .detail-service {
