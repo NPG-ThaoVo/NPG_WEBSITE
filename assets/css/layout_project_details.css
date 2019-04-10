@@ -10,12 +10,14 @@
 }
 
 .texthome-header-project-x {
-    font-size: 100px;
-    line-height: 136px;
+    font-size: 70px;
+    line-height: 86px;
+    padding-top: 15px;
     font-weight: 700;
     color: #1877C2;
     text-shadow: none !important;
     text-align: left;
+    text-transform: uppercase;
     padding-right: 80px;
 }
 
@@ -26,7 +28,7 @@
     text-shadow: none !important;
     padding-right: 40px;
     text-align: left;
-    margin-top: -5px;
+    /* margin-top: -5px; */
 }
 
 .banner-w3pvt {
