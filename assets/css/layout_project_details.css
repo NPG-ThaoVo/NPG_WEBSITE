@@ -112,10 +112,11 @@
     display: block;
     width: 100%;
     height: 100%;
-    padding:0px!important;
+    padding: 0px !important;
 }
-.parallax{
-    background:none;
+
+.parallax {
+    background: none;
 }
 
 .designs-header-2 {
@@ -189,6 +190,7 @@
     margin-bottom: 150px;
     margin-top: 150px;
 }
+
 .rel-st-2 p {
     font-size: 20px;
     line-height: 27px;
@@ -255,6 +257,7 @@
     clear: both;
     margin-bottom: 10px;
 }
+
 .styleColor {
     color: white;
     font-size: 14px;
@@ -290,9 +293,10 @@ small, .small {
     background: #8B6A8A;
 }
 
-.owl-carousel .owl-item{
-    background:#BEBEBE;
+.owl-carousel .owl-item {
+    background: #BEBEBE;
 }
+
 .owl-carousel {
     margin-bottom: 0px !important;
 }
@@ -318,13 +322,13 @@ small, .small {
     }
 
     .texthome-header-project-x {
-        font-size: 65px;
-        line-height: 115px;
+        font-size: 29px;
+        line-height: 40px;
         font-weight: 700;
         color: #1877C2;
         text-shadow: none !important;
         text-align: center;
-        padding-right: 0px!important;
+        padding-right: 0px !important;
     }
 
     .texthome-header-project-x2 {
@@ -332,9 +336,9 @@ small, .small {
         line-height: 24px;
         color: #6b6f73;
         text-shadow: none !important;
-        padding-right: 0px!important;
+        padding-right: 0px !important;
         text-align: center;
-         margin-top: 0px; 
+        margin-top: 0px;
     }
 
     .banner-w3pvt {
@@ -342,7 +346,6 @@ small, .small {
         background-size: cover;
         position: relative;
         background-image: url('../images/project-details/Group 2.png');
-
     }
 
     .align-items-center {
@@ -450,7 +453,7 @@ small, .small {
     }
 
     .photo-right-2 {
-        margin-top: 10px!important;
+        margin-top: 10px !important;
     }
 
     .bottom-2 {
@@ -466,8 +469,8 @@ small, .small {
         }
 
     .designs-bottom2 {
-        padding-left: 0!important;
-        padding-right: 0!important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
         font-size: 18px;
         padding-top: 28px;
     }
@@ -477,7 +480,7 @@ small, .small {
         line-height: 22px;
         color: #005888;
         font-weight: 600;
-        text-align:left;
+        text-align: left;
     }
 
     .link-1 {
@@ -603,12 +606,8 @@ small, .small {
     .owl-carousel {
         margin-bottom: 0px !important;
     }
-
-
-
-
 }
-    /*-----------------------------------end-project-details-1 ------------------------------------*/
+/*-----------------------------------end-project-details-1 ------------------------------------*/
 /*----------------------------------project-details-2-------------------------------------*/
 .banner-w3pvt-2 {
     min-height: 100vh;
@@ -633,6 +632,7 @@ small, .small {
     color: #FFF;
     text-shadow: none !important;
 }
+
 .texthome-header-project-x-2 {
     font-size: 90px;
     line-height: 80px;
@@ -669,7 +669,7 @@ small, .small {
     margin-left: 110px;
     margin-right: 110px;
     margin-top: 120px;
-    margin-bottom: 0!important;
+    margin-bottom: 0 !important;
     display: inline-block;
 }
 
@@ -714,15 +714,18 @@ small, .small {
          width: auto!important;
     }*/
     .owl-carousel .owl-item {
-         padding: 0px 0px!important; 
+        padding: 0px 0px !important;
     }
+
     .item-box-desc {
         min-height: 110px;
         max-height: 130px;
     }
+
     .content-left {
         margin-top: -5px;
     }
+
     .banner-w3pvt-2 {
         min-height: 100vh;
         background-size: cover;
@@ -735,14 +738,14 @@ small, .small {
 
 
     .bnr-w3pvt-txt-2 {
-        margin-left: 0!important;
-        margin-top: 0!important;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
     }
 
     .texthome-header-project-x1-2 {
         font-size: 20px;
         line-height: 24px;
-        text-align:center;
+        text-align: center;
         color: #FFF;
         text-shadow: none !important;
     }
@@ -765,6 +768,7 @@ small, .small {
     .text-home-project {
         text-align: center;
     }
+
     .short-content-3 .header-every-3 {
         font-size: 30px !important;
         line-height: 15px;
@@ -787,13 +791,13 @@ small, .small {
     }
 
     .short-content-3 {
-        margin-left: 0px!important;
-        margin-right: 0px!important;
-        margin-top: 20px!important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-top: 20px !important;
         margin-bottom: -60px !important;
         display: inline-block;
     }
-    
+
 
     .detail-every-website p {
         padding-top: 5px;
@@ -829,7 +833,6 @@ small, .small {
         font-size: 14px;
         line-height: 25px;
     }
-
 }
 
 @media only screen and (min-width:768px) and (max-width: 1024px) {
@@ -840,9 +843,11 @@ small, .small {
     .detail-every-website-2 {
         padding-top: 20px;
     }
-    .banner-project{
-        margin-top:10%;
+
+    .banner-project {
+        margin-top: 10%;
     }
+
     .banner-w3pvt-2 {
         min-height: 100vh;
         background-size: cover;
@@ -856,7 +861,7 @@ small, .small {
 
     .bnr-w3pvt-txt-2 {
         margin-left: 0 !important;
-        margin-top: 295px !important
+        margin-top: 295px !important;
     }
 
     .texthome-header-project-x1-2 {
@@ -944,12 +949,13 @@ small, .small {
         line-height: 25px;
     }
 }
+
 @media only screen and (width:768px) {
     .bnr-w3pvt-txt-2 {
         margin-left: 0 !important;
-        margin-top: 230px !important
+        margin-top: 230px !important;
     }
 }
 
 
-    /*----------------------------------end-project-details-2-------------------------------------*/
+/*----------------------------------end-project-details-2-------------------------------------*/
