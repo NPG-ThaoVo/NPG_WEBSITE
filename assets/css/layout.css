@@ -1311,6 +1311,7 @@ p span.label {
 }
 
 #header .lang-select-container {
+    display: none;
     position: absolute;
     right: 10px;
     top: -15px;
